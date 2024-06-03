@@ -1,0 +1,26 @@
+<div class="navbar">
+  <div class="nav-list">
+    <div class="logo">
+      <a><img src="assets/Images/movielogo.jpg"/></a>
+      <p class="movie-title">Watch Movies</p>
+    </div>
+    <ul>
+      <li><a routerLink="/">Home</a></li>
+      <li>
+        <a routerLink="/">Gerne</a>
+        <div class="dropdown">
+          <li><a href="#">Action</a></li>
+          <li><a href="#">Comedy</a></li>
+          <li><a href="#">Adventure</a></li>
+          <li><a href="#">Horror</a></li>
+        </div>
+      </li>
+      <li><a routerLink="/movie">Movies</a></li>
+      <li><a routerLink="/shows">TV Shows</a></li>
+    </ul>
+    <div class="search-container">
+      <input type="text" [(ngModel)]="movieSearch" placeholder="Search Movies">
+    <button class="btn" (click)="searchMovies()">Search</button>
+    </div>
+  </div>
+</div>

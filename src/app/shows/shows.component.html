@@ -1,0 +1,13 @@
+<h1>Tv Shows Page</h1>
+<div class="container">
+  <div *ngFor="let show of shows">
+    <div class="class-box">
+      <div class="play-btn">
+        <a href="" class="play-icon"
+          ><i class="fa-regular fa-circle-play"></i
+        ></a>
+      </div>
+      <img src="{{ show.img }}" />
+    </div>
+  </div>
+</div>

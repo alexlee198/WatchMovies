@@ -1,0 +1,17 @@
+<h1>MoviesPage</h1>
+
+<div class="search-container">
+    <input type="text" [(ngModel)]="movieSearch" placeholder="Search Movies">
+  <button class="btn" (click)="searchMovies()">Search</button>
+  </div>
+
+    <div class="container">
+        <div *ngFor="let movie of movies" >  
+        <div class="img-box">
+            <div class="play-btn">
+               <a href="" class="play-icon"><i class="fa-regular fa-circle-play"></i></a> 
+            </div>
+            <img src="{{movie.img}}">
+        </div>
+    </div> 
+

@@ -1,0 +1,99 @@
+.navbar{
+    background-color: black;
+    display: flex;
+    display: inline-block;
+    flex-wrap: wrap;
+    width: 100%;
+ 
+}
+
+
+img{
+    width: 65px;
+    border: orange solid 3px;
+    border-radius: 30px;
+
+}
+
+.movie-title{
+    display: inline-block;
+    margin-top: 10px;
+    color: orange;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.logo  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+a{
+    color:orange;
+    text-decoration: none;  
+}
+
+/* a:hover{
+   
+} */
+
+li{
+    font-size: 20px;
+    display: inline-block;
+    margin:5px;
+}
+
+.btn{
+    margin: 10px;
+    display: inline-block;
+    
+}
+
+.log-btn{
+    margin-right: 5px;
+    padding: 10px
+}
+
+.sign-btn{
+    padding: 10px
+}
+
+button{
+    background-color: black;
+    color:orange;
+    font-size: 16px;
+    border-radius: 20px;
+    border: orange solid 3px;
+    cursor: pointer;
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown li{
+    text-decoration: none;
+    padding:10px;
+    display: block;
+}
+
+
+li:hover .dropdown{
+    display: block;
+}
+
+
