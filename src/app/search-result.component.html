@@ -1,0 +1,66 @@
+<div class="genre-contain">
+  <div class="title-box">
+    <h1 class="genre-title">Results for "{{ searchTerm }}"</h1>
+  </div>
+
+  <div class="movie-flex" *ngIf="searchResults.length; else noResults">
+    <div class="movie-card" *ngFor="let item of searchResults">
+      <div class="img-wrapper">
+        <img [src]="item.img" alt="{{ item.name }}" />
+
+        <!-- Play button overlay -->
+        <div class="play-btn">
+          <a [routerLink]="[item.type === 'movie' ? '/movies' : '/shows', item.id]" class="play-icon">
+            <i class="fa-regular fa-circle-play"></i>
+          </a>
+        </div>
+.
+        <!-- Episode badge for shows -->
+        <div *ngIf="item.type === 'show' && item.episode" class="episode-badge">
+          <span class="ep-label">EP</span>
+          <span class="ep-number">{{ item.episode }}</span>
+        </div>
+
+        <!-- Title overlay -->
+        <div class="title-overlay">
+          {{ item.name }}
+          <span *ngIf="item.type === 'show' && item.season"> - Season {{ item.season }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<ng-template #noResults>
+  <p style="color: white; text-align: center;">No results found</p>
+</ng-template>
+
+
+
+
+
+<!-- <h2> Search result for "{{searchTerm}}"</h2>
+
+<div *ngIf ="movies.length || shows.length; else noResults" >
+    <h3>Movies</h3>
+  <div *ngFor="let movie of movies">
+    <p>{{ movie.name }}</p>
+    <a [routerLink]="['/movies', movie.id]">
+    <img [src]="movie.img" width="100"/>
+    </a>
+  </div>
+
+
+<h3>TV Shows</h3>
+  <div *ngFor="let show of shows">
+    <p>{{ show.name }}</p>
+    <a [routerLink] ="['/shows',show.id]">
+      <img [src]="show.img" width="120" />
+    </a>
+    
+  </div>
+</div>
+
+<ng-template #noResults>
+  <p>No results found for "{{ searchTerm }}".</p>
+</ng-template> -->

@@ -1,10 +1,9 @@
-.navbar{
+ /* .navbar{
     background-color: black;
     display: flex;
-    display: inline-block;
-    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
     width: 100%;
- 
 }
 
 
@@ -16,7 +15,6 @@ img{
 }
 
 .movie-title{
-    display: inline-block;
     margin-top: 10px;
     color: orange;
     font-size: 22px;
@@ -27,14 +25,8 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 12px
-}
-
-.nav-list{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
+    gap: 12px;
+    padding: 10px 20px; 
 }
 
 a{
@@ -42,12 +34,11 @@ a{
     text-decoration: none;  
 }
 
-/* a:hover{
-   
-} */
+ 
+
 
 li{
-    font-size: 20px;
+    font-size: 15px;
     display: inline-block;
     margin:5px;
 }
@@ -86,8 +77,9 @@ button{
 }
 
 .dropdown li{
+    background-color: black;
     text-decoration: none;
-    padding:10px;
+    padding: 10px;
     display: block;
 }
 
@@ -96,4 +88,69 @@ li:hover .dropdown{
     display: block;
 }
 
+.space{
+    padding:10px 20px;
+    font-size: 25px;
+} 
 
+/* nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 40px;
+    background-color: black;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 30px;
+}
+
+ a{
+    text-decoration: none;
+    color: goldenrod;
+    font-size: 20px;
+    padding-bottom: 5px;
+} */ 
+
+img{
+    width: 55px;
+    border: orange solid 3px;
+    border-radius: 30px;
+
+}
+
+.navbar-brand{
+    font-size: 27px;
+    padding: 0px 10px;
+    color: orange;
+    text-transform: uppercase;
+}
+
+
+.nav-link{
+   font-size: 22px;
+   color:white;  
+   text-transform: uppercase;
+   color: orange; 
+}
+
+.nav-link:hover{
+    transform: scale(1.2);
+    transition-delay: 0.3s;
+}
+
+
+
+.form-control:focus{
+    box-shadow: 0 0 0 0.2rem orange;
+    border-color: orange;
+
+}
+
+.container-fluid{
+    padding: 0px 50px;
+}

@@ -1,0 +1,3403 @@
+{
+    "movies": [
+        {
+            "id": 1,
+            "name": "Kung Fu Panda",
+            "genres": ["Animation","Adventure","Action"],
+            "img":"/assets/Images/KFP4.jpg",
+            "description":"Po is tasked with becoming the spiritual leader of the Valley of Peace and must also find and train a successor to be the new Dragon Warrior",
+            "cast": ["Jack Black","Awkwafina","Viola Davis"],
+            "runtime": "1h 34m",
+            "year": 2024,
+            "trailer":"https://www.youtube.com/embed/_inKs4eeHiI"
+
+        },
+
+        {
+            
+            "id": 2,
+            "name": "Knives Out",
+            "description":"The circumstances surrounding the death of crime novelist Harlan Thrombey are mysterious, but there's one thing that renowned Detective Benoit Blanc knows for sure -- everyone in the wildly dysfunctional Thrombey family is a suspect. Now, Blanc must sift through a web of lies and red herrings to uncover the truth.", 
+            "genres": ["Mystery","Thriller","Crime"],
+            "img": "/assets/Images/KO3.jfif",
+            "cast":["Daniel Craig","Chris Evans","Ana de Armas"],
+            "runtime":"2h 11m",
+            "year": 2019,
+            "trailer":"https://www.youtube.com/watch?v=sL-9Khv7wa4",
+            "featured": true
+        },
+
+        {
+            "id": 3,
+            "name": "Deadpool & Wolverine",
+            "genres":["Action","Comedy"] ,
+            "img":"/assets/Images/D&W2.jpg",
+            "description":"Deadpool is offered a place in the Marvel Cinematic Universe by the Time Variance Authority, but instead recruits a variant of Wolverine to save his universe from extinction.",
+            "cast": ["Ryan Reynolds","Hugh Jackman","Emma Corrin"],
+            "runtime": "2h 8m",
+            "year": 2024,
+            "trailer":"https://www.youtube.com/watch?v=73_1biulkYk",
+            "featured": true
+            
+        },
+
+        {
+            "id": 4,
+            "name": "Challengers",
+            "genres": ["Drama","Romance"],
+            "img":"/assets/Images/Challengers.jpg",
+            "description":"Tashi, a former tennis prodigy turned coach, transformed her husband into a champion. But to overcome a recent losing streak and redeem himself, he'll need to face off against his former best friend and Tashi's ex-boyfriend.",
+            "cast": ["Zendaya","Josh O'Connor","Mike Faist"],
+            "runtime": "2h 11m",
+            "trailer":"https://www.youtube.com/watch?v=VobTTbg-te0",
+            "year": 2024
+
+        },
+
+
+        {
+            "id": 5,
+            "name": "Nosferatu",
+            "genres": ["Horror","Mystery","Fantasy"],
+            "img":"/assets/Images/Nosf.jfif",
+            "description":"A gothic tale of obsession between a haunted young woman and the terrifying vampire infatuated with her, causing untold horror in its wake.",
+            "cast": ["Lily-Rose-Depp","Nicholas Hoult","Bill Skarsgard"],
+            "runtime": "2h 12m",
+            "trailer":"https://www.youtube.com/watch?v=nulvWqYUM8k",
+            "year": 2024
+        },
+
+        {
+            "id": 6 ,
+            "name": "Haunting In Venice",
+            "genres": ["Horror","Mystery"],
+            "img": "/assets/Images/Haunting In Venice.jpg",
+            "description":"In post-World War II Venice, Poirot, now retired and living in his own exile, reluctantly attends a seance. But when one of the guests is murdered, it is up to the former detective to once again uncover the killer.",
+            "cast": ["Kenneth Branagh","Tina Fey","Jamie Dornan"],
+            "runtime": "1h 43m",
+            "trailer":"https://www.youtube.com/watch?v=yEddsSwweyE",
+            "year": 2023
+        },
+
+
+        {
+            "id": 7,
+            "name": "Blink Twice",
+            "genres": ["Mystery","Thriller"],
+            "img":"/assets/Images/Blink.jfif",
+            "description":"When tech billionaire Slater King meets cocktail waitress Frida at his fundraising gala, he invites her to join him and his friends for a dream vacation on his private island. Wild nights soon blend into sun-soaked days, but when strange things start to happen, Frida must uncover the truth if she hopes to make it out alive.",
+            "cast": ["Naomi Ackie","Channing Tatum","Alia Shawkat"],
+            "runtime": "1h 42m",
+            "trailer":"https://www.youtube.com/watch?v=aMcmfonGWY4",
+            "year": 2024
+        },
+
+
+        {
+            "id": 8,
+            "name": "Barbie",
+            "genres": ["Adventure","Fantasy","Comedy"],
+            "img":"/assets/Images/Bar.jfif",
+            "description":"Barbie and Ken are having the time of their lives in the seemingly perfect world of Barbie Land. However, when they get a chance to go to the outside world, they soon discover the joys and perils of living among regular humans.",
+            "cast": ["Margot Robbie","Ryan Gosling","Issa Rae"],
+            "runtime": "1h 54m",
+            "trailer":"https://www.youtube.com/watch?v=pBk4NYhWNMM",
+            "year": 2023
+        },
+
+
+        {
+            "id": 9,
+            "name": "John Wick: Chapter 4",
+            "genres": ["Action","Crime","Thriller"],
+            "img":"/assets/Images/Wick4.jpg",
+            "description":"John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe and forces that turn old friends into foes.",
+            "cast": ["Keanu Reeves","Scott Adkins","Laurence Fishburne"],
+            "runtime": "2h 49m",
+            "year": 2023,
+            "trailer":"https://www.youtube.com/watch?v=yjRHZEUamCc",
+            "featured":true
+            
+        },
+
+
+        {
+            "id": 10,
+            "name": "Kraven the Hunter",
+            "genres": ["Adventure","Action"],
+            "img":"/assets/Images/Kraven.jpg",
+            "description":"Kraven's complex relationship with his ruthless father, Nikolai Kravinoff, starts him down a path of vengeance with brutal consequences, motivating him to become not only the greatest hunter in the world, but also one of its most feared.",
+            "cast": ["Aaron Taylor-Johnson"," Ariana DeBose ","Fred Hechinger"],
+            "runtime": "2h 17m",
+            "trailer":"https://www.youtube.com/watch?v=I8gFw4-2RBM",
+            "year": 2024
+        },
+
+
+        {
+            "id": 11,
+            "name": "Madame Web",
+            "genres": ["Action"],
+            "img":"/assets/Images/Miss Web.jpg",
+            "description":"Cassandra Webb is a New York City paramedic who starts to show signs of clairvoyance. Forced to confront revelations about her past, she must protect three young women from a mysterious adversary who wants them dead.",
+            "cast": [" Dakota Johnson","Sydney Sweeney"," Isabela Merced"],
+            "runtime": "1h 56m",
+            "trailer":"https://www.youtube.com/watch?v=s_76M4c4LTo",
+            "year": 2024
+        },
+
+
+        {
+            "id": 12,
+            "name": "The Watcher",
+            "genres": ["Horror","Fantasy"],
+            "img":"/assets/Images/Watcher.jpg",
+            "description":"A young artist gets stranded in an extensive, immaculate forest in western Ireland, where, after finding shelter, she becomes trapped alongside three strangers, stalked by mysterious creatures each night.",
+            "cast": ["Dakota Fanning","Georgina Campbell","Olwen Fouéré"],
+            "runtime": "1h 42m",
+            "trailer":"https://www.youtube.com/watch?v=dYo91Fq9tKY",
+            "year": 2024
+        },
+
+        {
+            "id": 13,
+            "name": "Monkey Man",
+            "genres": ["Action"],
+            "img":"/assets/Images/monkey.jpg",
+            "description":"An anonymous young man unleashes a campaign of vengeance against the corrupt leaders who murdered his mother and continue to systematically victimize the poor and powerless.",
+            "cast": ["Dev Patel","Sobhita Dhulipala","Sharlto Copley"],
+            "runtime": "2h 1m",
+            "trailer":"https://www.youtube.com/watch?v=g8zxiB5Qhsc",
+            "year": 2024
+        },
+
+        {
+            "id": 14,
+            "name": "Nope",
+            "genres": ["Horror"],
+            "img":"/assets/Images/nope.jpg",
+            "description":"A man and his sister discover something sinister in the skies above their California horse ranch, while the owner of a nearby theme park tries to profit from the mysterious, otherworldly phenomenon.",
+            "cast": ["Daniel Kaluuya","Keke Palmer","Brandon Perea"],
+            "runtime": "2h 10m",
+            "year": 2022,
+            "trailer":"https://www.youtube.com/watch?v=HUgmq_8PlRY",
+            "featured":true
+        },
+
+        {
+            "id": 15,
+            "name": "Spider-Man: No Way Home",
+            "genres": ["Action"],
+            "img":"/assets/Images/SpiderMan.jpg",
+            "description":"With Spider-Man's identity now revealed, our friendly neighborhood web-slinger is unmasked and no longer able to separate his normal life as Peter Parker from the high stakes of being a superhero. When Peter asks for help from Doctor Strange, the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.",
+            "cast": ["Tom Holland","Zendaya","Andrew Garfield"],
+            "runtime": "2h 28m",
+            "trailer":"https://www.youtube.com/watch?v=JfVOs4VSpmA",
+            "year": 2021
+        },
+
+        {
+            "id":16 ,
+            "name": "Blue Beetle",
+            "genres": ["Action"],
+            "img":"/assets/Images/Blue Beetle.jpg",
+            "description":"An alien scarab chooses Jaime Reyes to be its symbiotic host, bestowing the recent college graduate with a suit of armor that's capable of extraordinary powers, forever changing his destiny as he becomes the superhero known as Blue Beetle.",
+            "cast": ["Xolo Maridueña","Bruna Marquezine","George Lopez"],
+            "runtime": "2h 7m",
+            "trailer":"https://www.youtube.com/watch?v=vS3_72Gb-bI",
+            "year": 2023
+        },
+
+        {
+            "id": 17,
+            "name": "Watchmen: Chapter II",
+            "genres": ["Action","Drama","Mystery","Animation"],
+            "img":"/assets/Images/Watchmen 2.jfif",
+            "description":"In an alternate 1985 America, a group of retired superheroes investigate a conspiracy after one of their own is murdered.",
+            "cast": ["Troy Baker","Adrienne Barbeau","Michael Cerveris"],
+            "runtime": "1h 29m",
+            "year": 2024,
+            "trailer":"https://www.youtube.com/watch?v=D8_dkLx_E_g",
+            "featured":true
+        },
+
+        {
+            "id": 18,
+            "name": "Bad Boys: Ride or Die",
+            "genres": ["Action"," Comedy","Adventure","Crime"],
+            "img":"/assets/Images/Bad Boys.jpg",
+            "description":"When their late police captain gets linked to drug cartels, wisecracking Miami cops Mike Lowrey and Marcus Burnett embark on a dangerous mission to clear his name.",
+            "cast": ["Will Smith","Martin Lawrence","Vanessa Hudgens"],
+            "runtime": "1h 55m",
+            "trailer":"https://www.youtube.com/watch?v=ZTQyMmz-cQE",
+            "year": 2024
+        },
+
+    
+        {
+            "id": 19,
+            "name": "Godzilla x Kong: The New Empire",
+            "genres":["Action","Sci-Fi","Adventure","Fantasy"] ,
+            "img":"/assets/Images/Kong.jpg",
+            "description":"Godzilla and the almighty Kong face a colossal threat hidden deep within the planet, challenging their very existence and the survival of the human race.",
+            "cast": ["Rebecca Hall","Kaylee Hottle","Dan Stevens"],
+            "runtime": "1h 55m",
+            "trailer":"https://www.youtube.com/watch?v=qqrpMRDuPfc",
+            "year": 2024
+        },
+
+        {
+            "id": 20,
+            "name": "Tarot",
+            "genres": ["Horror"],
+            "img":"/assets/Images/Tarot.jpg",
+            "description":"When a group of friends recklessly violates the sacred rule of Tarot readings, they unknowingly unleash an unspeakable evil trapped within the cursed cards. One by one, they come face to face with fate and end up in a race against death.",
+            "cast": ["Harriet Slater","Jacob Batalon","Avantika Vandanapu"],
+            "runtime": "1h 32m",
+            "trailer":"https://www.youtube.com/watch?v=bvDArsKoTOE",
+            "year": 2024
+        },
+
+        {
+            "id": 21,
+            "name": "Spider-Man: Across the Spider-Verse",
+            "genres": ["Action","Animation","Family","Fantasy"],
+            "img":"/assets/Images/Spider Man.jpg",
+            "description":"Traveling across the multiverse, Miles Morales meets a new team of Spider-People, made up of heroes from different dimensions. But when the heroes clash over how to deal with a new threat, Miles finds himself at a crossroads.",
+            "cast": ["Shameik Moore","Hailee Steinfeld","Brian Tyree Henry"],
+            "runtime": "2h 20m",
+            "trailer":"https://www.youtube.com/watch?v=cqGjhVJWtEg",
+            "year": 2023
+        },
+
+        {
+            "id": 22,
+            "name": "The Flash",
+            "genres": ["Action"],
+            "img":"/assets/Images/Flash.jpg",
+            "description":"Barry Allen uses his super speed to change the past, but his attempt to save his family creates a world without super heroes, forcing him to race for his life in order to save the future.",
+            "cast": ["Ezra Miller","Michael Keaton","Sasha Calle"],
+            "runtime": "2h 24m",
+            "trailer":"https://www.youtube.com/watch?v=jprhe-cWKGs",
+            "year": 2023
+        },
+
+        {
+            "id": 23,
+            "name": "A Quiet Place: Day One",
+            "genres": ["Horror"],
+            "img":"/assets/Images/Quiet Place.jpg",
+            "description":"A young woman named Sam finds herself trapped in New York City during the early stages of an invasion by alien creatures with ultra-sensitive hearing.",
+            "cast": ["Lupita Nyong'o","Joseph Quinn","Djimon Hounsou"],
+            "runtime": "1h 39m",
+            "trailer":"https://www.youtube.com/watch?v=gjx-iHGXk9Q",
+            "year": 2024
+        },
+
+        {
+            "id": 24,
+            "name": "Sonic the Hedgehog 3",
+            "genres": ["Adventure","Action","Comedy","Family","Family"],
+            "img":"/assets/Images/Sonic3.jfif",
+            "description":"Sonic, Knuckles and Tails reunite to battle Shadow, a mysterious new enemy with powers unlike anything they've faced before. With their abilities outmatched in every way, they seek out an unlikely alliance to stop Shadow and protect the planet.",
+            "cast": ["Jim Carrey","Ben Schwartz","Keanu Reeves"],
+            "runtime": "1h 50m",
+            "trailer":"https://www.youtube.com/watch?v=qSu6i2iFMO0",
+            "year": 2024
+        },
+
+        {
+            "id": 25,
+            "name": "Jumanji: The Next Level",
+            "genres": ["Adventure","Action","Comedy","Fantasy"],
+            "img":"/assets/Images/Jumanji.jpg",
+            "description":"In Jumanji: The Next Level, the gang is back but the game has changed. As they return to rescue one of their own, the players will have to brave parts unknown from arid deserts to snowy mountains, to escape the world's most dangerous game.",
+            "cast": ["Dwayne Johnson","Kevin Hart","Jack Black"],
+            "runtime": "2h 3m",
+            "trailer":"https://www.youtube.com/watch?v=F6QaLsw8EWY",
+            "year": 2024
+        },
+
+        {
+            "id": 26,
+            "name": "Chateau",
+            "genres": ["Horror","Thriller"],
+            "img":"/assets/Images/Chateau.jpg",
+            "description":"While on a French vacation funded by odd jobs, an aspiring influencer covertly films a vlog in a reportedly haunted chateau she's been hired to clean.",
+            "cast": ["Cathy Marks","Colton Tran","Colton Tran"],
+            "runtime": "1h 32m",
+            "trailer":"https://www.youtube.com/watch?v=lCIxm1bVXP4",
+            "year": 2024
+        },
+        
+
+        {
+            "id": 27,
+            "name": "Red One",
+            "genres": ["Comedy", "Action", "Mystery","Adventure", "Fantasy"],
+            "img":"/assets/Images/Red One.jfif",
+            "description":"When a villain kidnaps Santa Claus from the North Pole, an E.L.F. (Extremely Large and Formidable) operative joins forces with the world's most accomplished tracker to find him and save Christmas.",
+            "cast": ["Dwayne Johnson","Chris Evans","Lucy Liu"],
+            "runtime": "2h 3m",
+            "trailer":"https://www.youtube.com/watch?v=7l3hfD74X-4",
+            "year": 2024
+        },
+
+        
+        {
+            "id": 28,
+            "name": "The First Omen",
+            "genres": ["Horror"],
+            "img":"/assets/Images/Omen.jpg",
+            "description":"A woman starts to question her own faith when she uncovers a terrifying conspiracy to bring about the birth of evil incarnate in Rome.",
+            "cast": ["Nell Tiger Free","Ralph Ineson","Maria Caballero"],
+            "runtime": "1h 59m",
+            "trailer":"https://www.youtube.com/watch?v=lmN1Op8ygno",
+            "year": 2024
+        },
+
+
+        {
+
+            "id": 29 ,
+            "name": "Glass Onion",
+            "genres": ["Mystery","Thriller","Drama","Crime","Comedy"],
+            "img": "/assets/Images/Glass Onion.jfif",
+            "description":"Tech billionaire Miles Bron invites his friends for a getaway on his private Greek island. When someone turns up dead, Detective Benoit Blanc is put on the case.",
+            "cast": ["Daniel Craig","Kate Hudson","Edward Norton"],
+            "runtime": "2h 19m",
+            "trailer":"https://www.youtube.com/watch?v=ucsha3EFirg",
+            "year": 2022
+
+        
+        },
+
+
+        {
+            "id": 30 ,
+            "name": " Meet The Blacks 2  ",
+            "genres": ["Comedy","Horror"],
+            "img": "/assets/Images/MTB2.jfif",
+            "description":"When best selling author Carl Black moves his family back to his childhood home, he must team up with oddball neighbors to do battle with a pimp, who may or may not be an actual vampire.",
+            "cast": ["Mike Epps","Katt Williams","Bresha Webb"],
+            "runtime": "1h 37m",
+            "trailer":"https://www.youtube.com/watch?v=yqofOncLZxU",
+            "year": 2021
+        },
+
+
+        {
+            "id": 31,
+            "name": "Free Guy",
+            "genres": ["Comedy","Action","Fantasy","Adventure"],
+            "img": "/assets/Images/Free Guy.jfif",
+            "description":"When a bank teller discovers he's actually a background player in an open-world video game, he decides to become the hero of his own story -- one that he can rewrite himself. In a world where there's no limits, he's determined to save the day his way before it's too late, and maybe find a little romance with the coder who conceived him.",
+            "cast": ["Ryan Reynolds","Jodie Comer","Lil Rel Howery"],
+            "runtime": "1h 55m",
+            "trailer":"https://www.youtube.com/watch?v=cttnRmcr_ME",
+            "year": 2021
+        },
+
+        {
+            "id": 32,
+            "name": " Death on the Nile",
+            "genres": ["Mystery","Crime","Drama"],
+            "img": "/assets/Images/DOTN.jfif",
+            "description":"While on vacation on the Nile, Hercule Poirot must investigate the murder of a young heiress.",
+            "cast": ["Kenneth Branagh","Gal Godot","Letitia Wright"],
+            "runtime": "2h 7m",
+            "trailer":"https://www.youtube.com/watch?v=dZRqB0JLizw",
+            "year": 2022
+        },
+
+
+        {
+            "id": 33,
+            "name": "Venom: The Last Dance",
+            "genres": ["Action"],
+            "img":"/assets/Images/Venom.jpg",
+            "description":"Eddie Brock and Venom must make a devastating decision as they're pursued by a mysterious military man and alien monsters from Venom's home world.",
+            "cast": ["Tom Hardy","Juno Temple","Chiwetel Ejiofor"],
+            "runtime": "1h 50m",
+            "trailer":"https://www.youtube.com/watch?v=HyIyd9joTTc",
+            "year": 2024
+        },
+
+
+        {
+            "id": 34 ,
+            "name": "Missing",
+            "genres": ["Mystery","Thriller"],
+            "img": "/assets/Images/Missing.jpg",
+            "description":"When her mother disappears while on vacation in Colombia with her new boyfriend, June's search for answers is hindered by international red tape. However, as she digs deeper, her digital sleuthing soon raises more questions than answers.",
+            "cast": ["Storm Reid","Nia Long", "Kimberly Cheng" ],
+            "runtime": "1h 51m",
+            "trailer":"https://www.youtube.com/watch?v=seBixtcx19E",
+            "year": 2023
+
+        },
+
+
+        {
+            "id":35,
+            "name": "Love Hurts",
+            "genres":["Action","Comedy","Romance"],
+            "img":"/assets/Images/Love.jfif",
+            "description":"Marvin is a Milwaukee realtor who receives a crimson envelope from Rose, a former partner-in-crime whom he left for dead. He now finds himself thrust back into a world of ruthless hit men and double-crosses that turn his open houses into deadly war zones. Hunted by his brother, a volatile crime lord, Marvin must confront the choices that haunt him and the history he never truly buried.",
+            "cast": ["Ke Huy Quan"," Ariana DeBose ","Mustafa Shakir"],
+            "runtime": "1h 23m",
+            "trailer":"https://www.youtube.com/watch?v=y7_gi1-bIJs",
+            "year": 2025,
+            "featured":true
+
+        },
+
+
+        {
+            "id":36,
+            "name":"Soul",
+            "genres": ["Adventure","Animation","Family","Fantasy"],
+            "img":"/assets/Images/Soul2.jpg",
+            "description":"Joe is a middle-school band teacher whose life hasn't quite gone the way he expected. His true passion is jazz -- and he's good. But when he travels to another realm to help someone find their passion, he soon discovers what it means to have soul.",
+            "cast": ["Jamie Foxx","Tina Fey","Rachel House"],
+            "runtime": "1h 40m",
+            "year": 2020 ,
+            "trailer":"https://www.youtube.com/watch?v=4TojlZYqPUo",
+            "featured":true
+        },
+
+
+        {
+            "id":37,
+            "name":"Ballerina",
+            "genres": ["Action","Thriller"],
+            "img":"/assets/Images/Wick.jfif",
+            "description":"An assassin trained in the traditions of the Ruska Roma organization sets out to seek revenge after her father's death.",
+            "cast": ["Ana de Armas","Keanu Reeves","Lance Reddick"],
+            "runtime": "2h 4m",
+            "trailer":"https://www.youtube.com/watch?v=yNN2PoilSp4",
+            "year": 2025
+        },
+
+
+        {
+            "id": 38,
+            "name": "Justice Leauge",
+            "genres": ["Action"],
+            "img":"/assets/Images/JL.jpg",
+            "description":"Steppenwolf and his Parademons return after eons to capture Earth. However, Batman seeks the help of Wonder Woman to recruit and assemble Flash, Cyborg and Aquaman to fight the powerful new enemy.",
+            "cast": ["Ben Affleck", "Gal Godot","Jason Momoa"],
+            "runtime": "2h",
+            "trailer":"https://www.youtube.com/watch?v=g_6yBZKj-eo",
+            "year": 2017
+        },
+
+
+        {
+            "id": 39,
+            "name": "The Fall Guy",
+            "genres": ["Action","Fantasy","Adventure"],
+            "img":"/assets/Images/FallGuy.jfif",
+            "description":"Fuelled by his restored faith in humanity, and inspired by Superman's selfless act, Bruce Wayne enlists newfound ally Diana Prince to face an even greater threat. Together, Batman and Wonder Woman work quickly to recruit a team to stand against this newly-awakened enemy. Despite the formation of an unprecedented league of heroes in Batman, Wonder Woman, Aquaman, Cyborg and the Flash, it may be too late to save the planet from an assault of catastrophic proportions.",
+            "cast": ["Ryan Gosling","Emily Blunt","Aaron Taylor-Johnson"],
+            "runtime": "2h 6m",
+            "trailer":"https://www.youtube.com/watch?v=j7jPnwVGdZ8",
+            "year": 2024
+        },
+
+        {
+            "id": 40,
+            "name": "BeeKeeper",
+            "genres": ["Action","Thriller","Crime"],
+            "img":"/assets/Images/Beekeeper.jpg",
+            "description":"A retired teacher commits suicide when she becomes a victim of a phishing scam. Soon, her tenant is framed as a murderer, who then contacts a mysterious group to catch the real culprits.",
+            "cast": ["Jason Statham","Josh Hutcherson","Taylor James"],
+            "runtime": "1h 45m",
+            "trailer":"https://www.youtube.com/watch?v=SzINZZ6iqxY",
+            "year": 2024 
+        },
+
+        {
+            "id": 41,
+            "name": "Glass",
+            "genres": ["Action","Horror","Sci-Fi","Drama","Thriller"],
+            "img":"/assets/Images/glass.jpg",
+            "description":"Security guard David Dunn uses his supernatural abilities to track Kevin Wendell Crumb, a disturbed man who has twenty-four personalities.",
+            "cast": ["James McAvoy", "Bruce Willis","Samuel L. Jackson" ],
+            "runtime": "2h 9m",
+            "trailer":"https://www.youtube.com/watch?v=Q7ztHi9ejp4",
+            "year": 2019
+        },
+
+
+        {
+            "id": 42,
+            "name": "Hit Man",
+            "genres": ["Comedy","Romance"],
+            "img":"/assets/Images/Hit.jpg",
+            "description":"A professor moonlighting as a hit man of sorts for his city police department, descends into dangerous, dubious territory when he finds himself attracted to a woman who enlists his services.",
+            "cast": ["Glen Powell", "Adria Arjona", "Austin Amelio"],
+            "runtime": "1h 55m",
+            "trailer":"https://www.youtube.com/watch?v=0g4cJ4NE8HA",
+            "year": 2023
+        },
+
+
+        {
+            "id": 43,
+            "name": "Inside Out 2",
+            "genres": ["Adventure","Comedy","Animation","Family"],
+            "img":"/assets/Images/InsideOut.jfif",
+            "description":"Thirteen-year-old Riley tackles high school with her personified emotions guiding her decisions. Soon her newfound feelings cause turmoil and force her to redefine her sense of self.",
+            "cast": ["Amy Poehler","Maya Hawke","Ayo Edebiri"],
+            "runtime": "1h 36m",
+            "trailer":"https://www.youtube.com/watch?v=LEjhY15eCx0",
+            "year": 2024
+        },
+
+
+        {
+            "id": 44,
+            "name": "Creed III",
+            "genres": ["Action","Drama"],
+            "img":"/assets/Images/Creed3.jpg",
+            "description":"Adonis has been thriving in both his career and family life, but when a childhood friend and former boxing prodigy resurfaces, the face-off is more than just a fight",
+            "cast": ["Michael B. Jordan","Jonathan Majors","Tessa Thompson"],
+            "runtime": "1h 56m",
+            "year":2023,
+            "trailer":"https://www.youtube.com/watch?v=xTaIZo8OJYE",
+            "featured":true
+        },
+
+        {
+
+            "id": 45,
+            "name": "Smile 2",
+            "genres": ["Horror","Mystery"],
+            "img":"/assets/Images/Smile.jpg",
+            "description":"About to embark on a new world tour, global pop sensation Skye Riley begins to experience increasingly terrifying and inexplicable events. Overwhelmed by the escalating horrors and pressures of fame, she must face her dark past to regain control of her life before it spirals out of control.",
+            "cast": ["Naomi Scott","Lukas Gage","Rosemarie DeWitt"],
+            "runtime": "2h 7m",
+            "trailer":"https://www.youtube.com/watch?v=FU_bAopCcSE",
+            "year": 2024
+            
+        },
+
+        {
+
+            "id": 46,
+            "name": "Gladiator II",
+            "genres": ["Adventure","Action","Drama"],
+            "img":"/assets/Images/Glad2.jfif",
+            "description":"Years after witnessing the death of Maximus at the hands of his uncle, Lucius must enter the Colosseum after the powerful emperors of Rome conquer his home. With rage in his heart and the future of the empire at stake, he looks to the past to find the strength and honor needed to return the glory of Rome to its people.",
+            "cast": ["Paul Mescal","Denzel Washington","Connie Nielsen"],
+            "runtime": "2h 28m",
+            "trailer":"https://www.youtube.com/watch?v=4rgYUipGJNo",
+            "year": 2024
+
+        },
+
+        {
+
+            "id": 47,
+            "name": "Joker: Folie à Deux",
+            "genres": ["Thriller","Drama"],
+            "img":"/assets/Images/Joker.jfif",
+            "description":"Struggling with his dual identity, failed comedian Arthur Fleck stumbles upon true love while incarcerated at Arkham State Hospital. Awaiting trial for the murder of five people, Fleck soon discovers the music that's always been inside him.",
+            "cast": ["Joaquin Phoenix","Lady Gaga","Brendan Gleeson"],
+            "runtime": "2h 18m",
+            "year": 2024 ,
+            "trailer":"https://www.youtube.com/watch?v=_OKAwz2MsJs",
+            "featured":true
+
+        },
+
+        {
+
+            "id": 48,
+            "name": "Mufasa: The Lion King",
+            "genres": ["Adventure","Drama","Animation"],
+            "img":"/assets/Images/LionKing.jfif",
+            "description":"Lost and alone, orphaned cub Mufasa meets a sympathetic lion named Taka, the heir to a royal bloodline. The chance meeting sets in motion an expansive journey of an extraordinary group of misfits searching for their destinies.",
+            "cast": ["Aaron Pierre","Tiffany Boone","Blue Ivy Carter"],
+            "runtime": "1h 58m",
+            "trailer":"https://www.youtube.com/watch?v=lMXh6vjiZrI",
+            "year": 2024
+
+        },
+
+        {
+
+            "id": 49,
+            "name": "Despicable Me 4",
+            "genres": ["Adventure","Comedy","Animation","Family","Sci-Fi"],
+            "img":"/assets/Images/Des4.jpg",
+            "description":"Gru welcomes a new member to the family, Gru Jr., who's intent on tormenting his dad. However, their peaceful existence soon comes crashing down when criminal mastermind Maxime Le Mal escapes from prison and vows revenge against Gru.",
+            "cast": ["Steve Carell","Miranda Cosgrove","Pierre Coffin"],
+            "runtime": "1h 34m",
+            "trailer":"https://www.youtube.com/watch?v=xMRq_AZYJHg",
+            "year": 2024
+
+
+        },
+        
+
+        {
+
+            "id": 50,
+            "name": "Wonka",
+            "genres": ["Adventure","Comedy","Fantasy","Family"],
+            "img":"/assets/Images/Wonka.jfif",
+            "description":"With dreams of opening a shop in a city renowned for its chocolate, a young and poor Willy Wonka discovers that the industry is run by a cartel of greedy chocolatiers.",
+            "cast": ["Timothée Chalamet","Hugh Grant","Rowan Atkinson"],
+            "runtime": "1h 56m",
+            "trailer":"https://www.youtube.com/watch?v=otNh9bTjXWg",
+            "year": 2023
+
+        },
+
+
+        {
+            "id": 51,
+            "name": "M3GAN",
+            "genres": ["Horror","Thriller","Sci-Fi"],
+            "img":"/assets/Images/Meg.jfif",
+            "description":"When robotics engineer Gemma becomes the guardian of her orphaned niece, Cady, she thinks her new invention, a robotic AI, will be a good companion. However, M3GAN begins to behave in unexpected and shocking ways.",
+            "cast": ["Allison Williams", "Violet McGraw","Amie Donald"],
+            "runtime": "1h 42m",
+            "trailer":"https://www.youtube.com/watch?v=1kBqEmXSW-A",
+            "year": 2022
+        },
+
+
+        {
+            "id": 52,
+            "name": "Mission: Impossible - Dead Reckoning Part One",
+            "genres": ["Action","Thriller","Adventure"],
+            "img":"/assets/Images/Miss.jfif",
+            "description":"Ethan Hunt and his IMF team must track down a dangerous weapon before it falls into the wrong hands.",
+            "cast": ["Tom Cruise","Hayley Atwell","Simon Pegg"],
+            "runtime": "2h 43m",
+            "trailer":"https://www.youtube.com/watch?v=avz06PDqDbM",
+            "year": 2023
+
+        },
+
+        {
+            "id": 53,
+            "name": "Escape Room: Tournament of Champions",
+            "genres": ["Action","Mystery","Horror"],
+            "img":"/assets/Images/EscRoom.jfif",
+            "description":"Ben and Zoey find themselves trapped in a series of deadly escape rooms with four others. They try to survive and find a way out as they slowly discover that they have played the game before.",
+            "cast": ["Taylor Russell","Logan Miller","Deborah Ann Woll"],
+            "runtime": "1h 28m",
+            "trailer":"https://www.youtube.com/watch?v=KlfUbZJVInA",
+            "year": 2021
+
+        },
+
+        {
+            "id": 54,
+            "name": "The Menu",
+            "genres": ["Horror","Comedy"],
+            "img":"/assets/Images/Menu.jfif",
+            "description":"Margot joins Tyler on a trip to a secluded island restaurant, where a renowned chef's elaborate tasting menu reveals disturbing intentions beneath a flawless exterior.",
+            "cast": ["Ralph Fiennes","Anya Taylor-Joy","Nicholas Hoult"],
+            "runtime": "1h 47m",
+            "trailer":"https://www.youtube.com/watch?v=C_uTkUGcHv4",
+            "year": 2022 
+
+        },
+
+
+        {
+
+            "id": 55,
+            "name": "The Marvels",
+            "genres": ["Adventure","Action", "Sci-Fi"],
+            "img":"/assets/Images/Marv1.jfif",
+            "description":"Carol Danvers gets her powers entangled with those of Kamala Khan and Monica Rambeau, forcing them to work together to save the universe.",
+            "cast": ["Brie Larson", "Teyonah Parris", "Samuel L. Jackson"],
+            "runtime": "1h 45m",
+            "trailer":"https://www.youtube.com/watch?v=wS_qbDztgVY",
+            "year": 2023
+
+        },
+
+        {
+
+            "id": 56,
+            "name": "Scream VI",
+            "genres": ["Horror","Mystery","Thriller"],
+            "img":"/assets/Images/Scream.jfif",
+            "description":"Four survivors of the Ghostface murders leave Woodsboro behind for a fresh start in New York City. However, they soon find themselves in a fight for their lives when a new killer embarks on a bloody rampage.",
+            "cast": ["Jenna Ortega","Melissa Barrera","Mason Gooding"],
+            "runtime": "2h 2m",
+            "trailer":"https://www.youtube.com/watch?v=1Ie2qmAOc6Q",
+            "year": 2023
+
+        },
+
+        {
+
+            "id": 57,
+            "name": "Everything Everywhere All at Once",
+            "genres": ["Action","Comedy","Adventure","Sci-Fi","Fantasy"],
+            "img":"/assets/Images/EEAAO.jfif",
+            "description":"A middle-aged Chinese immigrant is swept up into an insane adventure in which she alone can save existence by exploring other universes and connecting with the lives she could have led.",
+            "cast": ["Ke Huy Quan","Michelle Yeoh","Jamie Lee Curtis"],
+            "runtime": "2h 19m",
+            "trailer":"https://www.youtube.com/watch?v=wxN1T1uxQ2g",
+            "year": 2022
+
+        },
+        
+        {
+            "id": 58,
+            "name": "The Equalizer 3",
+            "genres": ["Action","Crime","Thriller"],
+            "img":"/assets/Images/EQ3.jfif",
+            "description":"Since giving up his life as a government assassin, Robert McCall finds solace in serving justice on behalf of the oppressed. Now living in Southern Italy, he soon discovers his new friends are under the control of local crime bosses. As events turn deadly, McCall becomes their protector by taking on the mafia.",
+            "cast": ["Denzel Washington","Dakota Fanning","Gaia Scodellaro"],
+            "runtime": "1h 49m",
+            "trailer":"https://www.youtube.com/watch?v=N2GJnmL9Iuo",
+            "year": 2023
+        },
+
+        {
+            "id": 59,
+            "name": "The Nun II",
+            "genres": ["Mystery","Horror"],
+            "img":"/assets/Images/Nun.jfif",
+            "description":"In 1956 France, a priest is murdered, and it seems an evil is spreading. Sister Irene once again comes face to face with a demonic force.",
+            "cast": ["Taissa Farmiga","Jonas Bloquet","Storm Reid"],
+            "runtime": "1h 50m",
+            "trailer":"https://www.youtube.com/watch?v=QF-oyCwaArU",
+            "year": 2023
+
+        },
+
+        {
+
+            "id": 60,
+            "name": "The Expendables 4",
+            "genres": ["Action","Adventure"],
+            "img":"/assets/Images/Ex4.jfif",
+            "description":"Armed with every weapon they can get their hands on, the Expendables are the world's last line of defense and the team that gets called when all other options are off the table.",
+            "cast": ["Sylvester Stallone","Jason Statham","Megan Fox"],
+            "runtime": "1h 43m",
+            "trailer":"https://www.youtube.com/watch?v=DhlaBO-SwVE",
+            "year": 2023
+
+        },
+
+
+        {
+
+            "id": 61,
+            "name": "Cocaine Bear",
+            "genres": ["Comedy","Thriller","Crime"],
+            "img":"/assets/Images/Bear.jfif",
+            "description":"An oddball group of cops, criminals, tourists and teens converge on a Georgia forest where a huge black bear goes on a murderous rampage after unintentionally ingesting cocaine.",
+            "cast": ["Alden Ehrenreich","Keri Russell", "O'Shea Jackson Jr."],
+            "runtime": "1h 35m",
+            "trailer":"https://www.youtube.com/watch?v=DuWEEKeJLMI",
+            "year": 2023
+
+
+        },
+
+        {
+            "id": 62,
+            "name": "Insidious: The Red Door",
+            "genres": ["Horror","Mystery"],
+            "img":"/assets/Images/Redroom.jfif",
+            "description":"Josh Lambert heads east to drop his son, Dalton, off at school. However, Dalton's college dream soon becomes a living nightmare when the repressed demons of his past suddenly return to haunt them both.",
+            "cast": ["Patrick Wilson","Ty Simpkins","Rose Byrne"],
+            "runtime": "1h 47m",
+            "trailer":"https://www.youtube.com/watch?v=ZuQuOnYnr3Q",
+            "year": 2023
+        },
+
+        {
+
+            "id": 63,
+            "name": "Haunted Mansion",
+            "genres": ["Horror","Mystery"," Comedy","Family","Fantasy","Drama"],
+            "img":"/assets/Images/HauntMan.jfif",
+            "description":"A single mom named Gabbie hires a tour guide, a psychic, a priest and a historian to help exorcise her newly bought mansion after discovering it is inhabited by ghosts.",
+            "cast": ["LaKeith Stanfield","Rosario Dawson","Tiffany Haddish"],
+            "runtime": "2h 3m",
+            "trailer":"https://www.youtube.com/watch?v=AjLKTz81bj8",
+            "year": 2023
+
+        },
+
+
+        {
+
+            "id": 64,
+            "name": "Fast X",
+            "genres": ["Action","Adventure"," Comedy"],
+            "img":"/assets/Images/FastX.jfif",
+            "description":"Dom Toretto and his family are targeted by the vengeful son of drug kingpin Hernan Reyes.",
+            "cast": ["Vin Diesel","Jason Statham","Jordana Brewster"],
+            "runtime": "2h 21m",
+            "trailer":"https://www.youtube.com/watch?v=32RAq6JzY-w",
+            "year": 2023
+
+        },
+
+        {
+
+            "id": 65,
+            "name": "Black Adam",
+            "genres": ["Action","Adventure"],
+            "img":"/assets/Images/BlackAdam.jfif",
+            "description":"Nearly 5,000 years after he was bestowed with the almighty powers of the Egyptian gods--and imprisoned just as quickly--Black Adam is freed from his earthly tomb, ready to unleash his unique form of justice on the modern world.",
+            "cast": ["Dwayne Johnson","Pierce Brosnan","Aldis Hodge"],
+            "runtime": "2h 5m",
+            "trailer":"https://www.youtube.com/watch?v=mkomfZHG5q4",
+            "year": 2022
+
+        },
+
+        {
+
+            "id": 66,
+            "name": "Teenage Mutant Ninja Turtles: Mutant Mayhem",
+            "genres": ["Action","Adventure","Comedy","Animation"],
+            "img":"/assets/Images/TNMT.jfif",
+            "description":"After years of being sheltered from the human world, the Turtle brothers set out to win the hearts of New Yorkers and be accepted as normal teenagers. Their new friend, April O'Neil, helps them take on a mysterious crime syndicate, but they soon get in over their heads when an army of mutants is unleashed upon them.",
+            "cast": ["Nicolas Cantu","Brady Noon","Shamon Brown Jr."],
+            "runtime": "1h 39m",
+            "trailer":"https://www.youtube.com/watch?v=JhXRNRmuYcc",
+            "year": 2023 
+
+        },
+
+        {
+            "id": 67,
+            "name": "The Blackening",
+            "genres": ["Horror","Mystery","Comedy"],
+            "img":"/assets/Images/Blackening.jfif",
+            "description":"Seven friends go away for the weekend and end up trapped in a cabin with a killer who has a vendetta. Will their street smarts and knowledge of horror movies help them stay alive? Probably not.",
+            "cast": ["Grace Byers","Melvin Gregg","Jay Pharoah"],
+            "runtime": "1h 37m",
+            "trailer":"https://www.youtube.com/watch?v=ImM2EkqSFfU",
+            "year": 2022
+
+        },
+
+    
+        {
+           "id": 68,
+            "name": "Don't Breathe 2",
+            "genres": ["Horror","Action","Crime"],
+            "img":"/assets/Images/DontBre2.jfif",
+            "description":"A blind war veteran trains his adopted daughter to face any danger, but they are ambushed when a vengeful stranger emerges from the past.",
+            "cast": ["Stephen Lang","Madelyn Grace","Brendan Sexton III"],
+            "runtime": "1h 38m",
+            "trailer":"https://www.youtube.com/watch?v=gRbG2tjHYCA",
+            "year": 2021
+        },
+        
+        {
+            "id": 69,
+            "name": "Aquaman and the Lost Kingdom",
+            "genres": ["Adventure","Action","Fantasy","Sci-Fi"],
+            "img":"/assets/Images/Aqua.jfif",
+            "description":"After failing to defeat Aquaman the first time, Black Manta wields the power of the mythic Black Trident to unleash an ancient and malevolent force. Hoping to end his reign of terror, Aquaman forges an unlikely alliance with his brother, Orm, the former king of Atlantis. Setting aside their differences, they join forces to protect their kingdom and save the world from irreversible destruction.",
+            "cast": ["Jason Momoa","Patrick Wilson","Yahya Abdul-Mateen II"],
+            "runtime": "2h 4m",
+            "trailer": "https://www.youtube.com/watch?v=mRGMMd8eazw",
+            "year": 2023
+            
+        },
+        
+        {
+            "id": 70,
+            "name": "The Invisible Man",
+            "genres": ["Horror","Mystery","Sci-Fi","Drama"],
+            "img":"/assets/Images/InvMan.jfif",
+            "description":"After staging his own suicide, a crazed scientist uses his power to become invisible to stalk and terrorize his ex-girlfriend. When the police refuse to believe her story, she decides to take matters into her own hands and fight back.",
+            "cast": ["Elisabeth Moss","Oliver Jackson-Cohen","Aldis Hodge"],
+            "runtime": "2h 4m",
+            "trailer":"https://www.youtube.com/watch?v=WO_FJdiY9dA",
+            "year": 2020
+
+        },
+        
+        {
+
+            "id": 71,
+            "name": "Guardians of the Galaxy Vol. 3",
+            "genres": ["Adventure","Action","Comedy","Sci-Fi"],
+            "img":"/assets/Images/Galaxy.jfif",
+            "description":"Still reeling from the loss of Gamora, Peter Quill must rally his team to defend the universe and protect one of their own. If the mission is not completely successful, it could possibly lead to the end of the Guardians as we know them.",
+            "cast": ["Chris Pratt","Bradley Cooper","Zoe Saldaña"],
+            "runtime": "2h 29m",
+            "trailer":"https://www.youtube.com/watch?v=u3V5KDHRQvk",
+            "year": 2023 
+        },
+
+
+        {
+
+            "id": 72,
+            "name": "Thor: Love and Thunder",
+            "genres": ["Adventure","Action"],
+            "img":"/assets/Images/Thor.jfif",
+            "description":"Thor enlists the help of Valkyrie, Korg and ex-girlfriend Jane Foster to fight Gorr the God Butcher, who intends to make the gods extinct.",
+            "cast": ["Chris Hemsworth","Natalie Portman","Tessa Thompson"],
+            "runtime": "1h 59m",
+            "trailer":"https://www.youtube.com/watch?v=Go8nTmfrQd8",
+            "year": 2022
+        },
+
+        {
+
+            "id":73,
+            "name": "Borderlands",
+            "genres":["Action","Adventure","Comedy","Sci-Fi"],
+            "img":"/assets/Images/BL.jfif",
+            "description":"Returning to her home planet Pandora, an infamous bounty hunter forms an unexpected alliance with a ragtag team of misfits. Together, they battle alien monsters and dangerous bandits to uncover one of Pandora's most explosive secrets.",
+            "cast": ["Edgar Ramírez","Cate Blanchett","Kevin Hart"],
+            "runtime": "1h 41m",
+            "trailer":"https://www.youtube.com/watch?v=lU_NKNZljoQ",
+            "year": 2024
+        },
+
+
+        {
+           
+            "id": 74,
+            "name": "Hellboy: The Crooked Man",
+            "genres":["Action", "Horror","Fantasy"],
+            "img":"/assets/Images/HELL.jfif",
+            "description":"Hellboy and a rookie BPRD agent find themselves stranded in 1950s rural Appalachia. They soon discover a community of witches led by a local devil who has a connection to Hellboy's past.",
+            "cast": ["Jack Kesy","Adeline Rudolph","Leah McNamara"],
+            "runtime": "1h 39m",
+            "year": 2024,
+            "trailer":"https://www.youtube.com/watch?v=6UEO6QTbvKc",
+            "featured": true
+
+        },
+
+        {
+           
+            "id": 75,
+            "name": "Puss in Boots: The Last Wish",
+            "genres":["Adventure", "Action","Animation"],
+            "img":"/assets/Images/Puss In Boots.jfif",
+            "description":"Puss in Boots discovers that his passion for adventure has taken its toll when he learns that he has burnt through eight of his nine lives. Puss sets out on an epic journey to find the mythical Last Wish and restore his nine lives.",
+            "cast": ["Antonio Banderas","Salma Hayek","Florence Pugh"],
+            "runtime": "1h 42m",
+            "trailer":"https://www.youtube.com/watch?v=RqrXhwS33yc",
+            "year": 2022
+
+        },
+
+
+        {
+           
+            "id": 76,
+            "name": "Longlegs",
+            "genres":["Horror", "Mystery","Crime"],
+            "img":"/assets/Images/LongLegs.jfif",
+            "description":"In pursuit of a serial killer, an FBI agent uncovers a series of occult clues that she must solve to end his terrifying killing spree.",
+            "cast": ["Nicolas Cage","Maika Monroe","Blair Underwood"],
+            "runtime": "1h 41m",
+            "trailer":"https://www.youtube.com/watch?v=OG7wOTE8NhE",
+            "year": 2024
+
+        },
+
+
+
+        {
+           
+            "id": 77,
+            "name": "A Working Man",
+            "genres":["Action","Thriller"],
+            "img":"/assets/Images/WokingMan.jfif",
+            "description":"Levon Cade left his profession behind to work construction and be a good dad to his daughter. But when a local girl vanishes, he's asked to return to the skills that made him a mythic figure in the shadowy world of counter-terrorism.",
+            "cast": ["Jason Statham","Jason Flemyng","Arianna Rivas"],
+            "runtime": "1h 56m",
+            "year": 2025 ,
+            "trailer":"https://www.youtube.com/watch?v=zTbgNC42Ops",
+            "featured":true
+
+        },
+
+        {
+           
+            "id": 78,
+            "name": "Beverly Hills Cop: Axel F",
+            "genres":["Action","Comedy","Crime"],
+            "img":"/assets/Images/BHCop.jfif",
+            "description":"Axel Foley returns to Beverly Hills after his daughter's life is threatened for a family reunion that includes old pals John Taggart and Billy Rosewood to uncover a conspiracy.",
+            "cast": ["Eddie Murphy","Joseph Gordon-Levitt","Taylour Paige"],
+            "runtime": "1h 58m",
+            "trailer":"https://www.youtube.com/watch?v=KoxhkE_U3Ww",
+            "year": 2024
+
+        },
+
+
+        {
+           
+            "id" : 79,
+            "name": "Reunion",
+            "genres":["Comedy","Mystery"],
+            "img":"/assets/Images/Ren.jfif",
+            "description":"Snowbound at their high school reunion, former classmates uncover a murder and scramble to identify the killer among them before they're all iced out for good.",
+            "cast": ["Lil Rel Howery","Jamie Chung","Chace Crawford"],
+            "runtime": "1h 30m",
+            "trailer":"https://www.youtube.com/watch?v=LF7kaIV7mc0",
+            "year":  2024
+
+        },
+
+
+        {
+           
+            "id": 80,
+            "name": "Knock at the Cabin",
+            "genres":["Horror","Mystery","Thriller"],
+            "img":"/assets/Images/KATC.jfif",
+            "description":"While vacationing at a remote cabin in the woods, a young girl and her parents are taken hostage by four armed strangers who demand they make an unthinkable choice to avert the apocalypse. Confused, scared and with limited access to the outside world, the family must decide what they believe before all is lost.",
+            "cast": ["Dave Bautista","Abby Quinn","Rupert Grint"],
+            "runtime": "1h 40m",
+            "trailer":"https://www.youtube.com/watch?v=0wiBHEACNHs",
+            "year": 2023
+
+        },
+
+
+        {
+           
+            "id": 81,
+            "name": "Old",
+            "genres":["Mystery","Drama","Horror"],
+            "img":"/assets/Images/old.jfif",
+            "description":"A thriller about a family on a tropical holiday who discover that the secluded beach where they are relaxing for a few hours is somehow causing them to age rapidly reducing their entire lives into a single day.",
+            "cast": ["Rufus Sewell","Vicky Krieps","Aaron Pierre"],
+            "runtime": "1h 48m",
+            "trailer":"https://www.youtube.com/watch?v=A4U2pMRV9_k",
+            "year":  2021
+
+        },
+
+        {
+           
+            "id": 82,
+            "name": "Jurassic World: Dominion",
+            "genres":["Action","Adventure","Sci-Fi"],
+            "img":"/assets/Images/JW.jfif",
+            "description":"Four years after the destruction of Isla Nublar, Biosyn operatives attempt to track down Maisie Lockwood, while Dr Ellie Sattler investigates a genetically engineered swarm of giant insects.",
+            "cast": ["Chris Pratt","Bryce Dallas Howard","Laura Dern"],
+            "runtime": "2h 27m",
+            "trailer":"https://www.youtube.com/watch?v=fb5ELWi-ekk",
+            "year": 2022
+
+        },
+
+
+        {
+           
+            "id":83,
+            "name": "Beetlejuice Beetlejuice",
+            "genres":["Horror","Comedy","Fantasy"],
+            "img":"/assets/Images/BjBj.jfif",
+            "description":"Still haunted by Beetlejuice, Lydia's life gets turned upside down when her daughter discovers a portal to the afterlife. When someone says Beetlejuice's name three times, the mischievous demon soon returns to unleash his very own brand of mayhem.",
+            "cast": ["Tim Burton","Michael Keaton","Jenna Ortega"],
+            "runtime": "1h 45m",
+            "trailer":"https://www.youtube.com/watch?v=CoZqL9N6Rx4",
+            "year": 2024,
+            "featured":true
+
+        },
+
+
+        {
+           
+            "id": 84,
+            "name": "The Iron Claw",
+            "genres":["Drama"],
+            "img":"/assets/Images/Claw.jfif",
+            "description":"The true story of the inseparable Von Erich brothers, who made history in the intensely competitive world of professional wrestling in the early 1980s.",
+            "cast": ["Zac Efron","Jeremy Allen White","Harris Dickinson"],
+            "runtime": "2h 12m",
+            "trailer":"https://www.youtube.com/watch?v=8KVsaoveTbw",
+            "year": 2023
+
+        },
+
+
+        {
+           
+            "id":85,
+            "name": "The King's Man",
+            "genres":["Adventure","Action","Thriller"],
+            "img":"/assets/Images/Kings.jfif",
+            "description":"One man must race against time to stop history's worst tyrants and criminal masterminds as they get together to plot a war that could wipe out millions of people and destroy humanity.",
+            "cast": ["Ralph Fiennes","Djimon Hounsou","Harris Dickinson"],
+            "runtime": "2h 11m",
+            "trailer":"https://www.youtube.com/watch?v=5zdBG-iGfes",
+            "year": 2021
+
+        },
+        
+        
+        {
+           
+            "id":86,
+            "name": "Moana 2",
+            "genres":["Adventure","Animation"],
+            "img":"/assets/Images/Mo2.jfif",
+            "description":"After receiving an unexpected call from her wayfinding ancestors, a strong-willed girl journeys with her crew to the far seas of Oceania and into dangerous, long-lost waters for an adventure unlike anything she has ever faced.",
+            "cast": ["Auli'i Cravalho","Dwayne Johnson","Awhimai Fraser"],
+            "runtime": "1h 40m",
+            "trailer":"https://www.youtube.com/watch?v=hDZ7y8RP5HE",
+            "year": 2024 
+
+        },
+
+        {
+           
+            "id":87,
+            "name": "Dragon Ball Super: Super Hero",
+            "genres":["Action", "Adventure","Animation","Fantasy"],
+            "img":"/assets/Images/DBS.jfif",
+            "description":"The Red Ribbon Army from Goku's past has returned with two new androids to challenge him and his friends.",
+            "cast": ["Masako Nozawa","Christopher Sabat","Monica Rial"],
+            "runtime": "1h 40m",
+            "trailer": "https://www.youtube.com/watch?v=6_fXQSobiHs",
+            "year": 2022
+
+        },
+
+
+        {
+           
+            "id":88,
+            "name": "Babylon",
+            "genres":["Comedy","Drama"],
+            "img":"/assets/Images/Baby.jfif",
+            "description":"",
+            "cast": ["Margot Robbie","Brad Pitt","Diego Calva"],
+            "runtime": "3h 9m",
+            "year": 2022 ,
+            "trailer":"https://www.youtube.com/watch?v=5muQK7CuFtY",
+            "featured":true
+
+        },
+
+
+
+        {
+           
+            "id":89,
+            "name": "The Bob's Burgers Movie",
+            "genres":["Adventure","Comedy","Animation"],
+            "img":"/assets/Images/BBM.jfif",
+            "description":"When a sinkhole in front of Bob's Burgers threatens the Belchers' plans for a successful summer, Bob and Linda try to keep their business going, while the kids attempt to save the restaurant by solving a mystery.",
+            "cast": ["H. Jon Benjamin","Kristen Schaal","Dan Mintz"],
+            "runtime": "1h 42m",
+            "trailer":"https://www.youtube.com/watch?v=hbGXqUumtqg",
+            "year": 2022
+
+        },
+
+
+        {
+           
+            "id":90,
+            "name": "The Matrix Resurrections",
+            "genres":["Action","Sci-Fi"],
+            "img":"/assets/Images/Matrix.jfif",
+            "description":"Return to a world of two realities: one, everyday life; the other, what lies behind it. To find out if his reality is a construct, to truly know himself, Mr. Anderson will have to choose to follow the white rabbit once more.",
+            "cast": ["Yahya Abdul-Mateen II","Jessica Henwick","Keanu Reeves"],
+            "runtime": "2h 28m",
+            "trailer":"https://www.youtube.com/watch?v=9ix7TUGVYIo",
+            "year": 2021
+
+        },
+
+
+        {
+           
+            "id":91,
+            "name": "Mortal Kombat",
+            "genres":["Action","Adventure"],
+            "img":"/assets/Images/MK21.jfif",
+            "description":"MMA fighter Cole Young seeks out Earth's greatest champions in order to stand against the enemies of Outworld in a high stakes battle for the universe.",
+            "cast": ["Lewis Tan","Jessica McNamee","Mehcad Brooks"],
+            "runtime": "1h 50m",
+            "trailer":"https://www.youtube.com/watch?v=QJHY4ggYCk4",
+            "year": 2021
+
+        },
+
+
+        {
+           
+            "id":92,
+            "name": "The Suicide Squad",
+            "genres":["Action","Adventure","Comedy"],
+            "img":"/assets/Images/TSS.jfif",
+            "description":"The government sends the most dangerous supervillains in the world -- Bloodsport, Peacemaker, King Shark, Harley Quinn and others -- to the remote, enemy-infused island of Corto Maltese. Armed with high-tech weapons, they trek through the dangerous jungle on a search-and-destroy mission, with only Col. Rick Flag on the ground to make them behave.",
+            "cast": ["Margot Robbie","Idris Elba","John Cena"],
+            "runtime": "2h 12m",
+            "trailer":"https://www.youtube.com/watch?v=jz1FrtMIh5c",
+            "year": 2021
+
+        },
+
+
+        {
+           
+            "id":93,
+            "name": "A Quiet Place Part II",
+            "genres":["Horror","Drama","Sci-Fi"],
+            "img":"/assets/Images/QP2.jfif",
+            "description":"Following the deadly events at home, the Abbott family must now face the terrors of the outside world as they continue their fight for survival in silence. Forced to venture into the unknown, they quickly realize that the creatures that hunt by sound are not the only threats that lurk beyond the sand path.",
+            "cast": ["Emily Blunt","Millicent Simmonds","Cillian Murphy"],
+            "runtime": "1h 37m",
+            "trailer":"https://www.youtube.com/watch?v=BpdDN9d9Jio",
+            "year": 2020
+
+        },
+
+
+        {
+           
+            "id":94,
+            "name": "The Boss Baby: Family Business",
+            "genres":["Adventure","Comedy","Animation"],
+            "img":"/assets/Images/BabyBoss.jfif",
+            "description":"The Templeton brothers have become adults and drifted away from each other, but a new boss baby with a cutting-edge approach is about to bring them together again - and inspire a new family business.",
+            "cast": ["Alec Baldwin","James Marsden","Amy Sedaris"],
+            "runtime": "1h 47m",
+            "trailer":"https://www.youtube.com/watch?v=QPzy8Ckza08",
+            "year":  2021
+
+        },
+
+
+        {
+           
+            "id":95,
+            "name": "The Addams Family 2",
+            "genres":["Adventure","Comedy","Mystery","Animation"],
+            "img":"/assets/Images/Addams.jfif",
+            "description":"Gomez Addams frets his children are drifting from him and Morticia. He packs the family into their haunted camper, embarking on a bizarre vacation to reconnect.",
+            "cast": ["Oscar Isaac","Chloë Grace Moretz","Charlize Theron"],
+            "runtime": "1h 33m",
+            "trailer":"https://www.youtube.com/watch?v=Kd82bSBDE84",
+            "year": 2021
+
+        },
+
+
+        {
+           
+            "id":96,
+            "name": "Candyman",
+            "genres":["Horror","Thriller"],
+            "img":"/assets/Images/Candy.jfif",
+            "description":"For decades, the housing projects of Chicago's Cabrini-Green were terrorized by a ghost story about a supernatural, hook-handed killer. In present day, an artist begins to explore the macabre history of Candyman, not knowing it would unravel his sanity and unleash a terrifying wave of violence that puts him on a collision course with destiny.",
+            "cast": ["Yahya Abdul-Mateen II","Teyonah Parris","Nathan Stewart-Jarrett"],
+            "runtime": "1h 31m",
+            "trailer":"https://www.youtube.com/watch?v=TPBH3XO8YEU",
+            "year": 2021
+
+        },
+
+
+        {
+           
+            "id":97,
+            "name": "Snake Eyes",
+            "genres":["Action","Adventure","Sci-Fi","Fantasy","Crime"],
+            "img":"/assets/Images/SnakeEyes.jfif",
+            "description":"Snake Eyes, a tenacious loner, is welcomed into an ancient Japanese clan called the Arashikage, who teach him the ways of the ninja and provide him home. But when secrets from his past are revealed, his honor and allegiance will be tested.",
+            "cast": ["Henry Golding","Haruka Abe","Iko Uwais"],
+            "runtime": "2h 1m",
+            "trailer":"https://www.youtube.com/watch?v=Vd2sm63Xwfw",
+            "year":  2021
+
+        },
+
+
+        {
+           
+            "id":98,
+            "name": "Black Widow",
+            "genres":["Adventure","Action","Sci-Fi"],
+            "img":"/assets/Images/BW.jfif",
+            "description":"Natasha Romanoff confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises.",
+            "cast": ["Scarlett Johansson","Florence Pugh","David Harbour"],
+            "runtime": "2h 13m",
+            "trailer":"https://www.youtube.com/watch?v=ybji16u608U",
+            "year": 2021
+
+        },
+
+
+
+        {
+           
+            "id":99,
+            "name": "F9: The Fast Saga",
+            "genres":["Action"],
+            "img":"/assets/Images/F9.jfif",
+            "description":"Dom and the crew must take on an international terrorist who turns out to be Dom and Mia's estranged brother.",
+            "cast": ["Vin Diesel","Jordana Brewster","Tyrese Gibson"],
+            "runtime": "2h 23m",
+            "trailer":"https://www.youtube.com/watch?v=aSiDu3Ywi8E",
+            "year":2021  
+
+        },
+
+
+        {
+           
+            "id": 100,
+            "name": "Queen & Slim",
+            "genres":["Drama","Crime","Romance"],
+            "img":"/assets/Images/Q&S.jfif",
+            "description":"Slim and Queen's first date takes an unexpected turn when a policeman pulls them over for a minor traffic violation. When the situation escalates, Slim takes the officer's gun and shoots him in self-defense. Now labeled cop killers in the media, Slim and Queen feel that they have no choice but to go on the run and evade the law. ",
+            "cast": ["Daniel Kaluuya","Jodie Turner-Smith","Bokeem Woodbine"],
+            "runtime": "2h 12m",
+            "trailer":"https://www.youtube.com/watch?v=G6Th84oGDno",
+            "year": 2019
+
+        },
+
+
+
+        {
+           
+            "id":101,
+            "name": "Birds of Prey and the Fantabulous Emancipation of One Harley Quinn",
+            "genres":["Action","Comedy","Crime"],
+            "img":"/assets/Images/BOP.jfif",
+            "description":"After splitting with the Joker, Harley Quinn joins superheroines Black Canary, Huntress, and Renee Montoya to save a young girl from an evil crime lord.",
+            "cast": ["Margot Robbie","Jurnee Smollett","Mary Elizabeth Winstead"],
+            "runtime": "1h,49m",
+            "trailer":"https://www.youtube.com/watch?v=kGM4uYZzfu0",
+            "year": 2020
+
+        },
+
+        {
+           
+            "id":102,
+            "name": "Tenet",
+            "genres":["Action","Thriller","Sci-Fi"],
+            "img":"/assets/Images/Tenet.jfif",
+            "description":"A secret agent is given a single word as his weapon and sent to prevent the onset of World War III. He must travel through time and bend the laws of nature in order to be successful in his mission.",
+            "cast": ["John David Washington","Robert Pattinson","Elizabeth Debicki"],
+            "runtime": "2h 30m",
+            "trailer":"https://www.youtube.com/watch?v=AZGcmvrTX9M",
+            "year": 2020
+
+        },
+
+        {
+           
+            "id":103,
+            "name": "The Peanuts Movie",
+            "genres":["Animation","Adventure","Comedy","Family"],
+            "img":"/assets/Images/Peanut.jfif",
+            "description":"Snoopy embarks upon his greatest mission as he and his team take to the skies to pursue their archnemesis, while his best pal Charlie Brown begins his own epic quest back home to win the love of his life.",
+            "cast": ["Noah Schnapp","Bill Melendez","Hadley Belle Miller"],
+            "runtime": "1h 32m",
+            "trailer":"https://www.youtube.com/watch?v=zQpUQPrAfQM",
+            "year": 2015
+
+        },
+
+
+        {
+            "id": 104,
+            "name": "Nobody",
+            "genres":["Action","Drama","Thriller","Crime"],
+            "img":"/assets/Images/Nobody.jfif",
+            "description":"A docile family man slowly reveals his true character after his house gets burgled by two petty thieves, which, coincidentally, leads him into a bloody war with a Russian crime boss.",
+            "cast": ["Bob Odenkirk","Christopher Lloyd","Connie Nielsen"],
+            "runtime": "1h 32m",
+            "trailer":"https://www.youtube.com/watch?v=wZti8QKBWPo",
+            "year": 2021
+        },
+
+
+
+        {
+            "id":105,
+            "name": "The Black Phone",
+            "genres":["Mystery","Horror","Thriller"],
+            "img":"/assets/Images/BP.jfif",
+            "description":"After being abducted and locked in a basement, a boy starts receiving calls on a disconnected phone from the killer's previous victims.",
+            "cast": ["Mason Thames","Ethan Hawke","Madeleine McGraw"],
+            "runtime": "1h 43m",
+            "trailer":"https://www.youtube.com/watch?v=3eGP6im8AZA",
+            "year": 2021
+        },
+
+
+        {
+            "id": 106,
+            "name": "Shang-Chi and the Legend of the Ten Rings",
+            "genres":["Action","Sci-Fi","Fantasy","Adventure"],
+            "img":"/assets/Images/Shang-Chi.jfif",
+            "description":"Shang-Chi, a martial artist, lives a quiet life after he leaves his father and the shadowy Ten Rings organisation behind. Years later, he is forced to confront his past when the Ten Rings attack him.",
+            "cast": ["Simu Liu","Awkwafina","Ben Kingsley"],
+            "runtime": "2h 12m",
+            "trailer":"https://www.youtube.com/watch?v=8YjFbMbfXaQ",
+            "year": 2021 
+        },
+
+
+
+        {
+            "id":107,
+            "name": "Judas and the Black Messiah",
+            "genres":["Drama","History"],
+            "img":"/assets/Images/JBM.jfif",
+            "description":"Drenched in the struggle and sorrow of politics, Fred Hampton led a tragic life devoted to help his commmunity, only to be betrayed by a fellow party member, who was a secret informant for the FBI.",
+            "cast": ["LaKeith Stanfield","Daniel Kaluuya","Ashton Sanders"],
+            "runtime": "2h 6m",
+            "trailer":"https://www.youtube.com/watch?v=sSjtGqRXQ9Y",
+            "year": 2021
+        },
+
+
+
+        {
+            "id": 108,
+            "name": "Barbarian",
+            "genres":["Mystery","Horror","Thriller"],
+            "img":"/assets/Images/Bar2.jfif",
+            "description":"A woman staying at an Airbnb discovers that the house she has rented is not what it seems.",
+            "cast": ["Georgina Campbell","Bill Skarsgard","Justin Long"],
+            "runtime": "1h 42m",
+            "trailer":"https://www.youtube.com/watch?v=Dr89pmKrqkI",
+            "year": 2022
+        },
+
+
+        {
+            "id": 109,
+            "name": "Avatar: The Way of Water",
+            "genres":["Action","Adventure","Fantasy","Sci-Fi"],
+            "img":"/assets/Images/Ava.jfif",
+            "description":"Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their home.",
+            "cast": ["Sam Worthington","Zoe Saldaña","Stephen Lang"],
+            "runtime": "3h 12m",
+            "trailer":"https://www.youtube.com/watch?v=d9MyW72ELq0",
+            "year": 2022
+        },
+
+
+
+        {
+            "id": 110,
+            "name": "Terrifier 2",
+            "genres":["Horror"],
+            "img":"/assets/Images/Terr.jfif",
+            "description":"Resurrected by a sinister entity, Art the Clown returns to Miles County to terrorize a teenage girl and her younger brother on Halloween night.",
+            "cast": ["Lauren LaVera","David Howard Thornton","Elliott Fullam"],
+            "runtime": "2h 18m",
+            "trailer":"https://www.youtube.com/watch?v=6KkONLf_ZKU",
+            "year": 2022
+        },
+
+        {
+            "id":111,
+            "name": "Luck",
+            "genres":["Adventure","Animation","Comedy","Fantasy","Family"],
+            "img":"/assets/Images/Luck.jfif",
+            "description":"The curtain is pulled back on the millennia-old battle between the organizations of good luck and bad luck that secretly affects everyday lives.",
+            "cast": ["Eva Noblezada","Simon Pegg","Jane Fonda"],
+            "runtime": "1h 45m",
+            "trailer":"https://www.youtube.com/watch?v=xSG5UX0EQVg",
+            "year": 2022
+        },
+
+
+        {
+            "id":112,
+            "name": "Violent Night",
+            "genres":["Comedy","Action","Thriller"],
+            "img":"/assets/Images/VNite.jfif",
+            "description":"When an elite team of mercenaries breaks into a family compound on Christmas Eve, a disgruntled Santa Claus must take them out to save both the hostages and his Holiday.",
+            "cast": ["David Harbour","John Leguizamo","Beverly D'Angelo"],
+            "runtime": "1h,52m",
+            "trailer":"https://www.youtube.com/watch?v=a53e4HHnx_s",
+            "year": 2022
+        },
+
+
+
+        {
+            "id":113,
+            "name": "The Toxic Avenger",
+            "genres":["Action", "Comedy","Horror"],
+            "img":"/assets/Images/Toxic.jfif",
+            "description":"A horrible toxic accident transforms downtrodden janitor, Winston Gooze into a new evolution of hero: The Toxic Avenger.",
+            "cast": ["Peter Dinklage","Taylour Paige","Jacob Tremblay"],
+            "runtime": "1h 42m",
+            "trailer":"https://www.youtube.com/watch?v=Wki1V-Gxz6M",
+            "year": 2023
+        },
+
+
+
+        {
+            "id":114,
+            "name": "Dungeons & Dragons: Honor Among Thieves",
+            "genres":["Fantasy","Action","Adventure","Comedy","Fantasy"],
+            "img":"/assets/Images/D&D.jfif",
+            "description":"A charming thief and a band of unlikely adventurers embark on an epic quest to retrieve a lost relic, but things go dangerously awry when they run afoul of the wrong people.",
+            "cast": ["Chris Pine","Chloe Coleman","Hugh Grant"],
+            "runtime": "2h 14m",
+            "trailer":"https://www.youtube.com/watch?v=IiMinixSXII",
+            "year":2023
+        },
+
+
+
+        {
+            "id":115,
+            "name": "I Know What You Did Last Summer",
+            "genres":["Horror"],
+            "img":"/assets/Images/iknow.jfif",
+            "description":"A group of friends are terrorised by a stalker who knows about a gruesome incident from their past.",
+            "cast": ["Madelyn Cline","Tyriq Withers","Sarah Pidgeon"],
+            "runtime": "1h 51m",
+            "trailer":"https://www.youtube.com/watch?v=IceTkSOSNJI",
+            "year": 2025
+        },
+
+
+
+        {
+            "id":116,
+            "name": "The Super Mario Bros. Movie",
+            "genres":["Animation","Adventure","Comedy","Family"],
+            "img":"/assets/Images/SMB.jfif",
+            "description":"Brooklyn plumbers Mario and Luigi are warped to the magical Mushroom Kingdom, and Mario must team up with Princess Peach, Toad, and Donkey Kong to save Luigi from the evil Bowser.",
+            "cast": ["Chris Pratt","Anya Taylor-Joy","Jack Black"],
+            "runtime": "1h 32m",
+            "trailer":"https://www.youtube.com/watch?v=TnGl01FkMMo",
+            "year": 2023
+        },
+
+
+        {
+            "id":117,
+            "name": "Transformers: Rise of the Beasts",
+            "genres":["Action","Adventure","Sci-Fi"],
+            "img":"/assets/Images/Trans.jfif",
+            "description":"Optimus Prime and the Autobots team up with a down on his luck young man, an aspiring historian and with a powerful faction of Transformers known as the Maximals to combat a sinister force from outer space that threatens the Earth and all of mankind.",
+            "cast": ["Anthony Ramos","Luna Lauren Velez","Dominique Fishback"],
+            "runtime": "2h 7m",
+            "trailer":"https://www.youtube.com/watch?v=itnqEauWQZM",
+            "year": 2023
+        },
+
+
+        {
+            "id":118,
+            "name": "The Little Mermaid",
+            "genres":["Adventure","Fantasy","Romance","Family"],
+            "img":"/assets/Images/Halle.jfif",
+            "description":"A young mermaid makes a deal with a sea witch to trade her beautiful voice for human legs so she can discover the world above water and impress a prince.",
+            "cast": ["Halle Bailey","Jonah Hauer-King","Awkwafina"],
+            "runtime": "2h 15m",
+            "trailer":"https://www.youtube.com/watch?v=kpGo2_d3oYE",
+            "year": 2023 
+        },
+
+
+
+        {
+            "id":119,
+            "name": "THANKSGIVING",
+            "genres":["Horror","Mystery","Comedy","Thriller"],
+            "img":"/assets/Images/Thanks.jfif",
+            "description":"After a Black Friday riot ends in tragedy, a mysterious Thanksgiving-inspired killer terrorizes Plymouth, Massachusetts, the birthplace of the infamous holiday.",
+            "cast": ["Patrick Dempsey","Gina Gershon","Nell Verlaque"],
+            "runtime": "1h 46m",
+            "trailer":"https://www.youtube.com/watch?v=KbU50SdL8zA",
+            "year": 2023
+        },
+
+
+
+
+        {
+            "id":120,
+            "name": "Red Rooms",
+            "genres":["Horror","Mystery","Thriller","Crime"],
+            "img":"/assets/Images/RR2.jfif",
+            "description":"Kelly-Anne is obsessed with the high-profile case of a serial killer, and reality blurs with her morbid fantasies. She goes down a dark path to get the missing video of the murder of a young girl, to whom Kelly-Anne bears a disturbing resemblance.",
+            "cast": ["Juliette Gariépy","Laurie Babin","Sasha Samar"],
+            "runtime": "1h 58m",
+            "trailer":"https://www.youtube.com/watch?v=31HT_BwlIfw",
+            "year": 2023
+        },
+
+
+
+
+        {
+            "id":121,
+            "name": "Eileen",
+            "genres":["Drama","Romance","Mystery"],
+            "img":"/assets/Images/Eileen.jfif",
+            "description":"In 1964 Massachusetts, a young secretary becomes enchanted by Rebecca, the glamorous new counsellor at the prison where she works. Their budding friendship soon takes a twisted turn when Rebecca reveals a dark secret.",
+            "cast": ["Anne Hathway","Shea Whigham","Sam Nivola"],
+            "runtime": "1h 37m",
+            "trailer":"https://www.youtube.com/watch?v=otDHCJcdN34",
+            "year": 2023
+        },
+
+
+        {
+            "id":122,
+            "name": "Poor Things",
+            "genres":["Romance","Comedy","Fantasy","Sci-Fi"],
+            "img":"/assets/Images/poor.jfif",
+            "description":"An account of the fantastical evolution of Bella Baxter, a young woman brought back to life by the brilliant and unorthodox scientist Dr. Godwin Baxter.",
+            "cast": ["Emma Stone","Mark Ruffalo","Willem Dafoe"],
+            "runtime": "2h 21m",
+            "trailer":"https://www.youtube.com/watch?v=7dEQhZfDQjk",
+            "year": 2023
+        },
+
+
+
+        {
+             "id":123,
+            "name":"A Simple Favor",
+            "genres":["Comedy","Thriller"],
+            "img":"/assets/Images/Favor2.jfif",
+            "description":"Stephanie is a widowed, single mother who works as a vlogger in Connecticut. Her best friend, Emily, seems to have it all -- a successful career, a loving family and a glamorous lifestyle. When Emily mysteriously disappears one day, Stephanie launches her own investigation by digging into her friend's past -- and finding a few surprises along the way.",
+            "cast": ["Anna Kendrick","Blake Lively","Henry Golding"],
+            "runtime": "1h 57m",
+            "trailer":"https://www.youtube.com/watch?v=rAqMlh0b2HU",
+            "year": 2018
+        },
+
+
+
+        {
+            "id":124,
+            "name": "It Ends with Us",
+            "genres":["Drama","Romance"],
+            "img":"/assets/Images/Ends.jfif",
+            "description":"When a woman's first love suddenly reenters her life, her relationship with a charming, but abusive neurosurgeon is upended and she realizes she must learn to rely on her own strength to make an impossible choice for her future.",
+            "cast": ["Blake Lively","Justin Baldoni","Jenny Slate"],
+            "runtime": "2h 10m",
+            "trailer":"https://www.youtube.com/watch?v=Djmbs-Jxsb4",
+            "year": 2024
+        },
+
+
+
+        {
+            "id":125,
+            "name": "Scott Pilgrim vs. the World",
+            "genres":["Comedy","Romance","Fantasy","Action"],
+            "img":"/assets/Images/scott.jfif",
+            "description":"A young man must defeat his new girlfriend's seven evil exes, who are willing to do anything to prevent her happiness with someone else.",
+            "cast": ["Michael Cera","Mary Elizabeth Winstead","Anna Kendrick"],
+            "runtime": "1h 52m",
+            "trailer":"https://www.youtube.com/watch?v=7wd5KEaOtm4",
+            "year": 2010
+        },
+
+
+
+
+        {
+            "id":126,
+            "name": "The Secret Life of Pets 2",
+            "genres":["Animation", "Adventure","Comedy","Family"],
+            "img":"/assets/Images/Pets 2.jfif",
+            "description":"Max the terrier encounters canine-intolerant cows, hostile foxes and a scary turkey when he visits the countryside. Luckily for Max, he soon catches a break when he meets Rooster, a gruff farm dog who tries to cure the lovable pooch of his neuroses.",
+            "cast": ["Kevin Hart","Patton Oswalt","Harrison Ford"],
+            "runtime": "1h 26m",
+            "trailer":"https://www.youtube.com/watch?v=mYocfuqu2A8",
+            "year": 2019
+        },
+
+
+
+
+        {
+            "id":127,
+            "name": "The Angry Birds Movie 2",
+            "genres":["Action","Adventure","Animation","Comedy","Family"],
+            "img":"/assets/Images/Angry.jfif",
+            "description":"Red, Chuck, Bomb and the rest of their feathered friends are surprised when a green pig suggests that they put aside their differences and unite to fight a common threat.",
+            "cast": ["Jason Sudeikis","Awkwafina","Tiffany Haddish"],
+            "runtime": "1h 36m",
+            "trailer":"https://www.youtube.com/watch?v=RSKQ-lVsMdg",
+            "year": 2019
+            
+        },
+
+
+
+        {
+            "id":128,
+            "name": "Focus",
+            "genres":["Romance","Drama","Crime","Comedy"],
+            "img":"/assets/Images/Focus.jfif",
+            "description":"In the midst of veteran con man Nicky's latest scheme, a woman from his past - now an accomplished femme fatale - shows up and throws his plans for a loop.",
+            "cast": ["Will Smith","Margot Robbie","Rodrigo Santoro"],
+            "runtime": "1h 45m",
+            "trailer":"https://www.youtube.com/watch?v=OvQ3LUhz_Jw",
+            "year": 2015
+        },
+
+
+
+        {
+            "id":129,
+            "name": "Dragon Ball Super: Broly",
+            "genres":["Action","Adventure","Fantasy","Animation"],
+            "img":"/assets/Images/Broly.jfif",
+            "description":"Earth is at peace after The Tournament of Power but Goku continues to train, knowing there are ever-stronger forces in the universe. With the arrival of a Saiyan warrior named Broly, Goku and Vegeta face their most dangerous challenge yet.",
+            "cast": ["Christopher Sabat","Monica Rial","Vic Mignogna"],
+            "runtime": "1h 40m",
+            "trailer":"https://www.youtube.com/watch?v=FHgm89hKpXU",
+            "year": 2018
+        },
+
+
+        {
+            "id":130,
+            "name": "Colossal",
+            "genres":["Comedy","Drama","Fantasy"],
+            "img":"/assets/Images/COL.jfif",
+            "description":"Gloria is an out-of-work party girl forced to leave her life in New York City and move back home. When reports surface that a giant creature is destroying Seoul, she gradually comes to the realization that she is somehow connected to this phenomenon.",
+            "cast": ["Anne Kendrick","Jason Sudeikis","Austin Stowell"],
+            "runtime": "1h 49m",
+            "trailer":"https://www.youtube.com/watch?v=fqcZtz8VXXE",
+            "year":2016
+        },
+
+
+
+        {
+            "id":131,
+            "name": "The New Mutants",
+            "genres":["Mystery","Horror","Action","Sci-Fi"],
+            "img":"/assets/Images/Mutants.jfif",
+            "description":"Five young mutants, just discovering their abilities while held in a secret facility against their will, fight to escape their past sins and save themselves.",
+            "cast": ["Anya Taylor-Joy","Maisie Williams","Alice Braga"],
+            "runtime": "1h 34m",
+            "trailer":"https://www.youtube.com/watch?v=W_vJhUAOFpI",
+            "year": 2020
+        },
+
+
+
+
+        {
+            "id":132,
+            "name": "What Men Want",
+            "genres":[" Comedy","Romance","Fantasy"],
+            "img":"/assets/Images/Men.jfif",
+            "description":"A woman is boxed out by the male sports agents in her profession, but gains an unexpected edge over them when she develops the ability to hear men's thoughts.",
+            "cast": ["Taraji P. Henson","Aldis Hodge", "Tracy Morgan"],
+            "runtime": "1h 57m",
+            "trailer":"https://www.youtube.com/watch?v=HeoLiTirRp4",
+            "year":2019
+        },
+
+
+
+        {
+            "id":133,
+            "name": "The Empty Man",
+            "genres":["Horror","Mystery","Drama"],
+            "img":"/assets/Images/Empty.jfif",
+            "description":"On the trail of a missing girl, an ex-cop comes across a secretive group attempting to summon a terrifying supernatural entity.",
+            "cast": ["Marin Ireland","Sasha Frolova","Evan Jonigkeit"],
+            "runtime": "2h 17m",
+            "trailer":"https://www.youtube.com/watch?v=tk6u9X1bW30",
+            "year":2020
+        },
+
+
+
+        {
+            "id":134,
+            "name": "21 Bridges",
+            "genres":["Drama","Mystery","Action","Adventure","Crime"],
+            "img":"/assets/Images/21B.jfif",
+            "description":"An embattled NYPD detective is thrust into a citywide manhunt for a pair of cop killers after uncovering a massive and unexpected conspiracy.",
+            "cast": ["Chadwick Boseman","Sienna Miller","J.K. Simmons"],
+            "runtime": "1h 39m",
+            "trailer":"https://www.youtube.com/watch?v=BVZDhunTrYA",
+            "year": 2019
+        },
+
+
+
+        {
+            "id":135,
+            "name": "Ava",
+            "genres":["Crime","Action","Thriller"],
+            "img":"/assets/Images/Ava2.jfif",
+            "description":"Ava, an assassin, becomes the target of her peers after a botched mission. Consequently, she is forced to fight for survival as the organisation relentlessly pursues her.",
+            "cast": ["Jessica Chastain","John Malkovich","Common"],
+            "runtime": "1h 37m",
+            "trailer":"https://www.youtube.com/watch?v=8NPb_yY33mk",
+            "year":2020
+        },
+
+
+
+        {
+            "id":136,
+            "name": "The Hunt",
+            "genres":["Action","Horror","Thriller"],
+            "img":"/assets/Images/Hunt.jfif",
+            "description":"Twelve strangers wake up in a clearing. They don't know where they are, or how they got there. They don't know they've been chosen - for a very specific purpose - The Hunt.",
+            "cast": ["Betty Gilpin","Hilary Swank","Emma Roberts"],
+            "runtime": "1h 30m",
+            "year": 2020,
+            "trailer":"https://www.youtube.com/watch?v=sowGYbxTPgU",
+            "featured":true
+        },
+
+
+
+        {
+            "id":137,
+            "name": "Gretel & Hansel",
+            "genres":["Fantasy","Mystery","Horror"],
+            "img":"/assets/Images/G&H.jfif",
+            "description":"When their mother descends into madness, siblings Gretel and Hansel must fend for themselves in the dark and unforgiving woods. Hungry and scared, they fortuitously stumble upon a bounty of food left outside an isolated home.",
+            "cast": ["Sophia Lillis","Alice Krige","Charles Babalola"],
+            "runtime": "1h 27m",
+            "trailer":"https://www.youtube.com/watch?v=QZblQLhKcZQ",
+            "year": 2020
+        },
+
+
+        {
+            "id":138,
+            "name": "Bob Marley: One Love",
+            "genres":["Drama"],
+            "img":"/assets/Images/Marley.jfif",
+            "description":"Jamaican musician Bob Marley faces adversity and personal strife as he popularises reggae music through his art and sparks a revolution around the world.",
+            "cast": ["Kingsley Ben-Adir","James Norton","Lashana Lynch"],
+            "runtime": "1h 47m",
+            "trailer":"https://www.youtube.com/watch?v=ajw425Kuvtw",
+            "year": 2024
+        },
+
+
+
+        {
+            "id":139,
+            "name": "The Garfield Movie",
+            "genres":["Family","Animation","Comedy","Adventure","Fantasy"],
+            "img":"/assets/Images/Garfield.jfif",
+            "description":"After an unexpected reunion with his long-lost father, a scruffy street cat, Garfield is forced to leave his perfectly pampered life in order to take part in a high-stakes heist. And an incredible outdoor adventure begins!",
+            "cast": ["Snoop Dogg","Chris Pratt","Angus Cloud"],
+            "runtime": "1h 41m",
+            "trailer":"https://www.youtube.com/watch?v=IeFWNtMo1Fs",
+            "year": 2024
+        },
+
+
+        {
+            "id":140,
+            "name": "The Color Purple",
+            "genres":["Drama"],
+            "img":"/assets/Images/Purple.jfif",
+            "description":" Celie faces many hardships in her life, but ultimately finds extraordinary strength and hope in the unbreakable bonds of sisterhood.",
+            "cast": ["Fantasia Barrino","Taraji P. Henson","Halle Bailey"],
+            "runtime": "2h 21m",
+            "trailer":"https://www.youtube.com/watch?v=wPwzBUui1GA",
+            "year": 2023
+        },
+
+
+        {
+            "id":141,
+            "name": "Coco",
+            "genres":["Animation","Adventure","Fantasy","Mystery","Family"],
+            "img":"/assets/Images/Coco.jfif",
+            "description":"Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer.",
+            "cast": ["Anthony Gonzalez","Benjamin Bratt","Anthony Gonzalez"],
+            "runtime": "1h 45m",
+            "trailer":"https://www.youtube.com/watch?v=xlnPHQ3TLX8",
+            "year": 2017
+        },
+
+
+
+        {
+            "id":142,
+            "name": "Immaculate",
+            "genres":["Horror"],
+            "img":"/assets/Images/Imm.jfif",
+            "description":"Cecilia, a woman of devout faith, is warmly welcomed to the picture-perfect Italian countryside where she is offered a new role at an illustrious convent. But it becomes clear to Cecilia that her new home harbors dark and horrifying secrets.",
+            "cast": ["Sydney Sweeney","Simona Tabasco","Álvaro Morte"],
+            "runtime": "1h 29m",
+            "trailer":"https://www.youtube.com/watch?v=11gb7q1tosI",
+            "year": 2024
+        },
+
+
+
+        {
+            "id":143,
+            "name": "Abigail",
+            "genres":["Horror","Action","Comedy","Crime"],
+            "img":"/assets/Images/Abi.jfif",
+            "description":"After a group of criminals kidnap the ballerina daughter of a powerful underworld figure, they retreat to an isolated mansion, unaware that they're locked inside with no normal little girl.",
+            "cast": ["Alisha Weir","Melissa Barrera","Dan Stevens"],
+            "runtime": "1h 49m",
+            "trailer":"https://www.youtube.com/watch?v=3PsP8MFH8p0",
+            "year": 2024
+        },
+
+
+        {
+            "id":144,
+            "name": "Speak No Evil",
+            "genres":["Horror"],
+            "img":"/assets/Images/SNE.jfif",
+            "description":"A family is invited to spend a whole weekend in a lonely home in the countryside, but as the weekend progresses, they realize that a dark side lies within the family who invited them.",
+            "cast": ["James McAvoy","Mackenzie Davis","Scoot McNairy"],
+            "runtime": "1h 50m",
+            "trailer":"https://www.youtube.com/watch?v=FjzxI6uf8H8",
+            "year": 2024
+        },
+
+
+
+        {
+            "id":145,
+            "name": "Incredibles 2",
+            "genres":["Action","Animation","Adventure","Comedy","Family"],
+            "img":"/assets/Images/Inc2.jfif",
+            "description":"The Incredibles family takes on a new mission which involves a change in family roles: Bob Parr (Mr. Incredible) must manage the house while his wife Helen (Elastigirl) goes out to save the world.",
+            "cast": ["Craig T. Nelson", "Holly Hunter","Samuel L. Jackson"],
+            "runtime": "1h 58m",
+            "trailer":"https://www.youtube.com/watch?v=i5qOzqD9Rms",
+            "year": 2018
+        },
+
+
+
+        {
+            "id":146,
+            "name": "Deadpool 2",
+            "genres":["Comedy","Action","Adventure"],
+            "img":"/assets/Images/Deadpool.jfif",
+            "description":"Foul-mouthed mutant mercenary Wade Wilson (a.k.a. Deadpool) assembles a team of fellow mutant rogues to protect a young boy with abilities from the brutal, time-traveling cyborg Cable.",
+            "cast": ["Ryan Reynolds","Morena Baccarin","Josh Brolin"],
+            "runtime": "1h 59m",
+            "trailer":"https://www.youtube.com/watch?v=D86RtevtfrA",
+            "year": 2018
+        }
+
+
+    
+
+
+
+
+
+        
+    ],
+
+    "shows": [
+        {
+
+            "id": 1,
+            "name": " Abbott Elementary " ,
+            "genres": ["Comedy"] ,
+            "img":"/assets/show-img/Abb2.jfif",
+            "season": 4,
+            "episode": 22,
+            "description":"A workplace comedy centered on a group of dedicated teachers - and an oblivious principal - in a Philadelphia public school where, despite the odds stacked against them, they are determined to help their students succeed in life.",
+            "cast": ["Quinta Brunson"," Tyler James Williams","Janelle James"],
+            "runtime": "22 min",
+            "trailer":"https://www.youtube.com/watch?v=2-G3ARx_bsY",
+            "year": 2021
+            
+            
+        },
+
+        {
+            "id":2,
+            "name": "The Bear",
+            "genres":[" Comedy"],
+            "img":"/assets/show-img/Bear.jpg",
+            "season": 4 ,
+            "episode": 10,
+            "description":"A young chef from the fine dining world returns to Chicago to run his family's sandwich shop.",
+            "cast": ["Jeremy Allen White"," Ayo Edebiri","Ebon Moss-Bachrach"],
+            "runtime": "34 min",
+            "trailer":"https://www.youtube.com/watch?v=vOyRo-Yjr2Q",
+            "year": 2022
+        },
+        
+        {
+            "id":3,
+            "name": "Elsbeth",
+            "genres":["Comedy"],
+            "img":"/assets/show-img/Elsbeth.jpg",
+            "featured": true,
+            "season": 2,
+            "episode": 7,
+            "description":"Elsbeth Tascioni, the astute but unconventional attorney, works with the NYPD to catch New York's most well-heeled murderers utilizing her unique point of view. Elsbeth is based on the character featured in The Good Wife and The Good Fight.",
+            "cast": ["Carrie Preston","Carra Patterson","Wendell Pierce "],
+            "runtime": "43 min",
+            "trailer":"https://www.youtube.com/watch?v=hwRIsL6r6lc",
+            "year": 2024
+        },
+        
+        {
+            "id":4,
+            "name": "Empire",
+            "genres":["Drama"],
+            "img":"/assets/show-img/Empire.jfif",
+            "season": 6,
+            "episode":18,
+            "description":"A hip-hop mogul must choose a successor among his three sons who are battling for control over his multi-million dollar company, while his ex-wife schemes to reclaim what is hers.",
+            "cast": ["Terrence Howard","Taraji P. Henson","Jussie Smollett"],
+            "runtime": "45 min",
+            "trailer":"https://www.youtube.com/watch?v=S43Vddr9QWU",
+            "year": 2020
+        },
+        
+        {
+            "id":5,
+            "name": "Euphoria",
+            "genres":["Drama"],
+            "img":"/assets/show-img/euphoria.jpg",
+            "season": 2,
+            "episode": 8,
+            "description":"Rue Bennett is a drug addict fresh from rehab, who's struggling to stay clean and make sense of her future. Her life changes drastically when she meets Jules Vaughn, a trans girl who recently moved to town following her parents' divorce.",
+            "cast": ["Zendaya"," Hunter Schafer","Angus Cloud"],
+            "runtime": "52 min",
+            "trailer":"https://www.youtube.com/watch?v=moZjrIk5L4U",
+            "year": 2019
+        },
+        
+        {
+            "id":6,
+            "name": "Raven's Home",
+            "genres":["Adventure","Comedy"],
+            "img":"/assets/show-img/Raven.jfif",
+            "season": 6 ,
+            "episode":18,
+            "description":"Though Raven Baxter is psychic, she never guessed that she would be a single mother living in an apartment with her twins, Nia and Booker Baxter, and her best friend Chelsea and her son Levi",
+            "cast": ["Raven-Symoné"," Issac Ryan Brown"," Navia Robinson"],
+            "runtime": "22 min",
+            "trailer":"https://www.youtube.com/watch?v=rQt6mzDQd_g",
+            "year": 2017
+        },
+        
+        {
+            "id":7,
+            "name": "Black-ish",
+            "genres":["Comedy"],
+            "img":"/assets/show-img/Black.jfif",
+            "season":8 ,
+            "episode":13,
+            "featured":true,
+            "description":"A family man struggles to gain a sense of cultural identity while raising his kids in a predominantly white, upper-middle-class neighborhood. ",
+            "cast": ["Anthony Anderson", "Tracee Ellis Ross","Marcus Scribner"],
+            "runtime": "22 min",
+            "trailer":"https://www.youtube.com/watch?v=BlBeqUr9k-E",
+            "year":  2022
+        },
+        
+        {
+            "id":8,
+            "name": "Them",
+            "genres":["Horror","Drama","Thriller","Mystery"],
+            "img":"/assets/show-img/Them.jpg",
+            "season": 2,
+            "episode":8,
+            "description":"Anthology horror series with varying characters and locations by season, featuring different aspects of the horror genre.",
+            "cast": ["Deborah Ayorinde", "Ashley Thomas", "Shahadi Wright Joseph"],
+            "runtime": "45min",
+            "trailer":"https://www.youtube.com/watch?v=6pU4k1qS3QA",
+            "year": 2021
+        },
+        
+        {
+            "id":9,
+            "name": "True Detective",
+            "genres":["Drama","Crime","Mystery"],
+            "img":"/assets/show-img/True Det.jfif",
+            "featured": true,
+            "season": 1,
+            "episode": 8,
+            "description":"Anthology series in which police investigations unearth the personal and professional secrets of those involved, both within and outside the law.",
+            "cast": ["Matthew McConaughey","Woody Harrelson","Michelle Monaghan"],
+            "runtime": "52 min",
+            "trailer":"https://www.youtube.com/watch?v=fVQUcaO4AvE",
+            "year": 2014
+        },
+
+        {
+            "id":10,
+            "name": "Invincible",
+            "genres":["Action","Animation"],
+            "img":"/assets/show-img/Inv2.jfif",
+            "featured": true,
+            "season": 3,
+            "episode": 7,
+            "description":"Seventeen-year-old Mark Grayson is just like every guy his age, except that his father is Omni-Man, the most powerful superhero on the planet. As Mark develops powers of his own, he discovers his father's legacy may not be as heroic as it seems.",
+            "cast": ["Steven Yeun","J.K. Simmons","Sandra Oh"],
+            "runtime": "47 min",
+            "trailer":"https://www.youtube.com/watch?v=rbHUhCcSXEM",
+            "year": 2021
+
+        },
+
+        {
+
+            "id": 11 ,
+            "name": "Peacemaker" ,
+            "genres": ["Action","Adventure","Comedy"] ,
+            "img": "/assets/show-img/Peace.jfif",
+            "season":1 ,
+            "episode": 6,
+            "description":"Peacemaker is a man who fights for peace at any cost, no matter how many people he has to kill to get it.",
+            "cast": ["John Cena","  Jennifer Holland","Freddie Stroma"],
+            "runtime": "40 min",
+            "trailer":"https://www.youtube.com/watch?v=WHXq62VCaCM",
+            "year": 2022
+
+        },
+
+        {
+            
+            "id": 12,
+            "name": "The Vampire Diaries" ,
+            "genres": ["Drama","Fantasy","Horror"] ,
+            "img": "/assets/show-img/Vamp.jfif",
+            "season": 2 ,
+            "episode":22,
+            "description":"The lives, loves, dangers and disasters in the town, Mystic Falls, Virginia. Creatures of unspeakable horror lurk beneath this town as a teenage girl is suddenly torn between two vampire brothers.",
+            "cast": ["Paul Wesley"," Ian Somerhalder","Nina Dobrev"],
+            "runtime": "43 min",
+            "trailer":"https://www.youtube.com/watch?v=ovC0F0nFkTo",
+            "year": 2017
+
+        },
+
+
+        {
+            
+            "id": 13,
+            "name": "The Originals" ,
+            "genres": ["Drama","Mystery","Fantasy"] ,
+            "img": "/assets/show-img/Orig.jfif",
+            "season": 3,
+            "episode":22,
+            "description":"Klaus, the original vampire/werewolf hybrid, returns to New Orleans - which his family helped build - to investigate rumours of a plot against him, in this spin-off of `The Vampire Diaries'. He finds his former protege, Marcel, reigning powerful over its inhabitants, causing growing tension in the supernatural community.",
+            "cast": ["Joseph Morgan","Daniel Gillies","Phoebe Tonkin"],
+            "runtime": "42 min",
+            "trailer":"https://www.youtube.com/watch?v=avmJvcqcVTU",
+            "year": 2018
+
+        },
+
+        {
+            
+            "id": 14 ,
+            "name": "Legacies" ,
+            "genres": ["Horror","Mystery","Fantasy","Adventure"] ,
+            "img": "/assets/show-img/Leg.jfif",
+            "season": 4,
+            "episode":20,
+            "featured":true,
+            "description":"The Salvatore School for the Young and Gifted is home to Klaus Mikaelson's daughter Hope, Alaric Saltzman's twins Lizzie and Josie, and other young adults who are coming of age as witches, vampires and werewolves, nurtured to be their best selves and overcome their villainous impulses. Together, they rely on ancient folklore and tales to learn how to battle their far-reaching enemies and attempt to keep balance in the world.",
+            "cast": ["Danielle Rose Russell","Matthew Davis","Aria Shahghasemi"],
+            "runtime": "45 min",
+            "trailer":"https://www.youtube.com/watch?v=v_D6qUmU5Z4",
+            "year": 2022
+
+        },
+
+
+        {
+            
+            "id": 15 ,
+            "name": "Lucifer" ,
+            "genres": ["Drama","Fantasy","Crime"] ,
+            "img": "/assets/show-img/Luci.jfif",
+            "featured":true,
+            "season": 6,
+            "episode": 10,
+            "description":"Lucifer Morningstar has decided he's had enough of being the dutiful servant in Hell and decides to spend some time on Earth to better understand humanity. He settles in Los Angeles - the City of Angels.",
+            "cast": ["Tom Ellis"," Lauren German","D.B. Woodside"],
+            "runtime": "57 min",
+            "trailer":"https://www.youtube.com/watch?v=fdnsHHxXVIc",
+            "year": 2021
+
+        },
+        
+        
+        {
+            
+            "id": 16 ,
+            "name": "The Flash" ,
+            "genres": ["Action","Drama","Adventure","Sci-Fi"] ,
+            "img": "/assets/show-img/Flash.jfif",
+            "season": 9,
+            "episode":13,
+            "featured":true,
+            "description":"After being struck by lightning, Barry Allen wakes up from his coma to discover he's been given the power of super speed, becoming the Flash, and fighting crime in Central City.",
+            "cast": ["Grant Gustin","Candice Patton"," Danielle Panabaker"],
+            "runtime": "42 min",
+            "trailer":"https://www.youtube.com/watch?v=2mW6nJ_e0P4",
+            "year": 2023
+
+        },
+
+
+
+        {
+            
+            "id": 17 ,
+            "name": "Titans",
+            "genres": ["Drama","Fantasy","Action","Adventure"] ,
+            "img": "/assets/show-img/TiT.jfif",
+            "season": 4 ,
+            "episode":12,
+            "description":"This gritty take on the Teen Titans franchise follows young heroes from across the DC Universe as they come of age and find where they belong. Dick Grayson and Rachel Roth, a special girl possessed by a strange darkness, get involved in a conspiracy that could bring Hell on Earth. Hot-headed Starfire and lovable Beast Boy join them along the way as together they become a surrogate family and team of heroes fighting evil.",
+            "cast": ["Brenton Thwaites"," Anna Diop","Ryan Potter "],
+            "runtime": "45 min",
+            "trailer":"https://www.youtube.com/watch?v=3bhBYJYuabg",
+            "year": 2023
+
+        },
+
+
+
+
+        {
+            
+            "id": 18 ,
+            "name": "Sherlock" ,
+            "genres": ["Drama","Mystery","Thriller"] ,
+            "img": "/assets/show-img/Lock.jfif",
+            "season": 4,
+            "episode":3,
+            "description":"The quirky spin on Conan Doyle's iconic sleuth pitches him as a high-functioning sociopath in modern-day London. Assisting him in his investigations: Afghanistan War vet John Watson, who's introduced to Holmes by a mutual acquaintance.",
+            "cast": ["Benedict Cumberbatch","Martin Freeman"," Louise Brealey "],
+            "runtime": "1h 30 min",
+            "trailer":"https://www.youtube.com/watch?v=qlcWFoNqZHc",
+            "year": 2010
+
+        },
+
+
+        {
+            
+            "id": 19 ,
+            "name": "Rick and Morty" ,
+            "genres": ["Animation","Adventure"] ,
+            "img": "/assets/show-img/R&M.jfif",
+            "featured":true,
+            "season": 8,
+            "episode": 9,
+            "description":"The fractured domestic lives of a nihilistic mad scientist and his anxious grandson are further complicated by their inter-dimensional misadventures.",
+            "cast": ["Justin Roiland","Spencer Grammer","Sarah Chalke"],
+            "runtime": "23 min",
+            "trailer":"https://www.youtube.com/watch?v=ySYnTO7leqI",
+            "year": 2013
+
+        },
+
+
+
+        {
+            
+            "id": 20 ,
+            "name": "Death Note" ,
+            "genres": ["Animation","Mystery"] ,
+            "img": "/assets/show-img/DN.jfif",
+            "season": 1,
+            "episode":37,
+            "description":"An intelligent high school student goes on a secret crusade to eliminate criminals from the world after discovering a notebook capable of killing anyone whose name is written into it.",
+            "cast": ["Mamoru Miyano","Kappei Yamaguchi","Shannon Chan-Kent"],
+            "runtime": "24 min",
+            "trailer":"https://www.youtube.com/watch?v=NlJZ-YgAt-c",
+            "year": 2006
+
+        },
+
+
+
+        {
+            
+            "id": 21 ,
+            "name": "The 100" ,
+            "genres": ["Drama","Action"] ,
+            "img": "/assets/show-img/100.jfif",
+            "season": 7 ,
+            "episode":10,
+            "description":"Set 97 years after a nuclear war destroyed civilization, when a spaceship housing humanity's lone survivors sends 100 juvenile delinquents back to Earth, hoping to repopulate the planet.",
+            "cast": ["Eliza Taylor","Bob Morley","Marie Avgeropoulos "],
+            "runtime": "44 min",
+            "trailer":"https://www.youtube.com/watch?v=VJL9xLcjLg0",
+            "year": 2014
+
+        },
+
+
+
+        {
+            
+            "id": 22 ,
+            "name": "X-Men: Evolution" ,
+            "genres": ["Action","Adventure", "Animation","Drama"] ,
+            "img": "/assets/show-img/Xmen.jfif",
+            "season": 4,
+            "episode":9,
+            "description":"A group of people discover that they have extraordinary powers and must decide whether to use them for good or for evil. The ranks of both the good and bad forces swell as more people discover their super powers, and the battle between good and evil rages.",
+            "cast": ["Scott McNeil","Meghan Black","Christopher Judge"],
+            "runtime": "23 min",
+            "trailer":"https://www.youtube.com/watch?v=-fQSE47J7xw",
+            "year": 2000
+
+        },
+
+
+
+
+        {
+            
+            "id": 23 ,
+            "name": "House of Cards" ,
+            "genres": ["Drama"] ,
+            "img": "/assets/show-img/HOC.jfif",
+            "season": 6,
+            "episode":8,
+            "description":" Promised the post of Secretary of State in exchange for his support, his efforts help to ensure the election of Garrett Walker to the presidency. But Walker changes his mind before the inauguration, telling Underwood he's too valuable in Congress. Outwardly, Underwood accepts his marching orders, but secretly he and his wife Claire, an environmental activist, make a pact to destroy Walker and his allies.",
+            "cast": ["Kevin Spacey ","Kate Mara"," Robin Wright "],
+            "runtime": "55 min",
+            "trailer":"https://www.youtube.com/watch?v=7jLCCbv3dKI",
+            "year": 2018
+
+        },
+
+
+
+        {
+            
+            "id": 24 ,
+            "name": "Dexter",
+            "genres": ["Drama","Mystery","Thriller","Crime"] ,
+            "img": "/assets/show-img/Dex.jfif",
+            "season": 8,
+            "episode":12,
+            "description":"Dexter Morgan is a Miami-based blood splatter expert who doesn't just solve murders; he commits them too. In fact, he's a serial killer -- but he only murders the guilty, so he feels justified with his lifestyle choices.His policewoman sister and his cop co-workers have no idea Dexter lives a double life; however, adoptive father Harry knows his secret, and does, in fact, help Dexter hone his skills. It's a unique brand of justice for which charming Dexter feels a psychological hunger.",
+            "cast": ["Michael C. Hall "," Jennifer Carpenter"," David Zayas"],
+            "runtime": "45 min",
+            "trailer":"https://www.youtube.com/watch?v=1SmCBzB5It0",
+            "year": 2013
+
+        },
+
+
+
+        {
+            
+            "id": 25 ,
+            "name": "Mr. Bean" ,
+            "genres": ["Comedy"] ,
+            "img": "/assets/show-img/Bean.jfif",
+            "season": 5,
+            "episode":26,
+            "description":"Loveable buffoon Mr Bean has the unique talent of turning the most ordinary of situations into moments of excruciating embarrassment",
+            "cast": ["Rowan Atkinson"," Matilda Ziegler","Robin Driscoll"],
+            "runtime": "24 min",
+            "trailer":"https://www.youtube.com/watch?v=rLyLYq6wSL4",
+            "year": 1990
+
+        },
+
+
+
+        {
+            
+            "id": 26 ,
+            "name": "The Last of Us",
+            "genres": ["Action","Adventure","Drama","Horror","Sci-Fi"] ,
+            "img": "/assets/show-img/LOU.jfif",
+            "season": 2,
+            "episode":7,
+            "description":"Joel and Ellie, a pair connected through the harshness of the world they live in, are forced to endure brutal circumstances and ruthless killers on a trek across a post-outbreak America.",
+            "cast": ["Bella Ramsey","Pedro Pascal","Isabela Merced"],
+            "runtime": "22 min",
+            "trailer":"https://www.youtube.com/watch?v=8OssbbmhFqk",
+            "year": 2023
+
+        },
+
+
+        {
+            
+            "id": 27 ,
+            "name": "Mr. Robot" ,
+            "genres": ["Drama","Thriller"] ,
+            "img": "/assets/show-img/Robot.jfif",
+            "season":4 ,
+            "episode":13,
+            "description":"Young, anti-social computer programmer Elliot works as a cybersecurity engineer during the day, but at night he is a vigilante hacker. He is recruited by the mysterious leader of an underground group of hackers to join their organization. Elliot's task? Help bring down corporate America, including the company he is paid to protect, which presents him with a moral dilemma.",
+            "cast": ["Rami Malek","Carly Chaikin","Portia Doubleday"],
+            "runtime": "45 min",
+            "trailer":"https://www.youtube.com/watch?v=2-G3ARx_bsY",
+            "year": 2015
+
+        },
+
+
+        {
+            
+            "id": 28,
+            "name": "Wilfred" ,
+            "genres": ["Comedy"] ,
+            "img": "/assets/show-img/Will.jfif",
+            "season": 4,
+            "episode":10,
+            "description":"Elijah Wood stars in this comedy based on a popular Australian series of the same name. Wood plays Ryan, a young man struggling to make his way in the world. That is, until he meets his neighbour's dog, Wilfred, and forms a unique friendship with the canine. Everyone else sees Wilfred as just a dog, but Ryan sees him as a crude, surly Australian bloke wearing a cheap dog suit. As the dog guides Ryan through a series of comedic, existential adventures, he also shows him how to overcome his fears and embrace the unpredictability and insanity of the world around him.",
+            "cast": ["Elijah Wood","Fiona Gubelmann","Jason Gann"],
+            "runtime": "22 min",
+            "trailer":"https://www.youtube.com/watch?v=aPo9c_DLB94",
+            "year": 2011
+
+        },
+
+
+        {
+            
+            "id": 29 ,
+            "name": "Community" ,
+            "genres": ["Comedy","Drama"] ,
+            "img": "/assets/show-img/COM.jfif",
+            "season":6 ,
+            "episode":13,
+            "description":"When fast-talking lawyer Jeff Winger (Joel McHale) finds his degree has been revoked, he is forced to go back to school at Greendale Community College. Hoping to score points with a pretty coed, he invents a study group and invites her to join it.",
+            "cast": ["Joel McHale","Gillian Jacobs","Donald Glover"],
+            "runtime": "22 min",
+            "trailer":"https://www.youtube.com/watch?v=g4iJrZLi3Uo",
+            "year": 2009
+
+        },
+
+
+
+        {
+            
+            "id": 30 ,
+            "name": "Dragon Ball Super" ,
+            "genres": ["Adventure","Action","Animation","Comedy"] ,
+            "img": "/assets/show-img/DBS.jfif",
+            "season":2 ,
+            "episode":30,
+            "description":"With Majin Buu now defeated and Earth at peace, the heroes have settled into normal lives, which in Goku's case means being a radish farmer. They can't get too comfortable in their new lives because more evildoers are on the horizon. Enter Beerus, the powerful god of destruction, who awakens -- far away from Earth -- to a prophecy predicting his demise at the hands of an even more formidable being.",
+            "cast": ["Sean Schemme","Masako Nozawa","Christopher Sabat"],
+            "runtime": "23 min",
+            "trailer":"https://www.youtube.com/watch?v=8TD_mVSLcv4",
+            "year": 2018
+
+        },
+
+
+        {
+            
+            "id": 31 ,
+            "name": "Adventure Time" ,
+            "genres": ["Comedy","Animation","Action","Adventure"] ,
+            "img": "/assets/show-img/AdvTim.jfif",
+            "season":10 ,
+            "episode":13,
+            "description":"A 12-year-old boy and his best friend, a wise 28-year-old dog with magical powers, go on a series of surreal adventures in a remote future.",
+            "cast": ["Jeremy Shada","Hynden Walch","John DiMaggio"],
+            "runtime": "23 min",
+            "trailer":"https://www.youtube.com/watch?v=g7GIyV5q8Rg",
+            "year": 2010
+
+        },
+
+
+        {
+            
+            "id": 32 ,
+            "name": "Family Guy" ,
+            "genres": ["Comedy","Animation"] ,
+            "img": "/assets/show-img/FamGuy.jfif",
+            "season": 23,
+            "episode":18,
+            "description":"In a wacky Rhode Island town, a dysfunctional family strives to cope with everyday life as they are thrown from one crazy scenario to another.",
+            "cast": ["Seth MacFarlane"," Alex Borstein","Seth Green"],
+            "runtime": "20 min",
+            "trailer":"https://www.youtube.com/watch?v=drWuVyvrOLU",
+            "year": 1999
+
+        },
+
+
+        {
+            "id": 33 ,
+            "name": "Bob's Burgers" ,
+            "genres": ["Comedy","Animation"] ,
+            "img":"/assets/show-img/BB.jfif",
+            "season":14 ,
+            "episode":16,
+            "description":"Bob Belcher is a third-generation restaurateur who runs Bob's Burgers with his loving wife and their three children. Bob believes his burgers speak for themselves and isn't afraid to offer a variety of off-beat creations. Bob's wife, Linda, supports his dream but is becoming sick of the slow times, as the restaurant is constantly in danger of going out of business. ",
+            "cast": ["H. Jon Benjamin ","Kristen Schaa","Dan Mintz"],
+            "runtime": "22 min",
+            "trailer":"https://www.youtube.com/watch?v=cCrZfBME9Gc",
+            "year": 2011
+
+        },
+
+
+        {
+            "id": 34,
+            "name": "The Penguin" ,
+            "genres": ["Drama","Crime"] ,
+            "img":"/assets/show-img/pen.jfif",
+            "season":1 ,
+            "episode":8,
+            "description":"The transformation of Oz Cobb from a disfigured nobody to a noted Gotham gangster.",
+            "cast": ["Colin Farrell","Cristin Milioti","Carmen Ejogo"],
+            "runtime": "57 min",
+            "trailer":"https://www.youtube.com/watch?v=sfJG6IiA_s8",
+            "year": 2024
+
+        },
+
+
+        {
+            "id": 35 ,
+            "name": " Shameless " ,
+            "genres": ["Drama","Comedy"] ,
+            "img":"/assets/show-img/Shame.jfif",
+            "season": 11,
+            "episode":12,
+            "description":" Frank Gallagher, a single father of six who spends much of his free time drinking at bars. The Gallagher children -- led by oldest daughter Fiona (Emmy Rossum), who takes on much of the child-rearing responsibility due to her mother's absence -- manage to raise themselves in spite of Frank's lack of parenting and unusual parenting style when he does choose to act like a father.",
+            "cast": ["Emmy Rossum","William H. Macy"," Jeremy Allen White"],
+            "runtime": "57 min",
+            "trailer":"https://www.youtube.com/watch?v=fUYhtQi-fG4",
+            "year": 2011
+
+        },
+
+
+        {
+            "id": 36 ,
+            "name": " Murder, She Wrote " ,
+            "genres": ["Mystery","Drama","Crime"] ,
+            "img":"/assets/show-img/MSW.jfif",
+            "season":12 ,
+            "episode":24,
+            "description":"Professional writer and amateur sleuth Jessica Fletcher uses her intellect, charm, and persistence to get to the bottom of every crime she encounters.",
+            "cast": ["Angela Lansbury","William Windom","Tom Bosley"],
+            "runtime": "48 min",
+            "trailer":"https://www.youtube.com/watch?v=IS68Wb0NGTk",
+            "year": 1984
+
+        },
+
+
+        {
+            "id": 37 ,
+            "name": " The Boondocks " ,
+            "genres": ["Animation","Comedy"] ,
+            "img":"/assets/show-img/Boon.jfif",
+            "season":4 ,
+            "episode":10,
+            "description":"Cantankerous Robert Granddad Freeman is the legal guardian of his grandsons, 10-year-old revolutionary Huey and 8-year-old Riley, a product of contemporary rap culture. After moving the family from Chicago's South Side to the safety of suburban Woodcrest -- aka the boondocks -- Granddad hopes to ignore the grandkids and enjoy his golden years in peace. But the kids have different plans, torturing each other and provoking others in the neighborhood. No matter how wild they get, Huey and Riley are no match for the eccentric elderly man.",
+            "cast": ["Regina King","John Witherspoon","Gary Anthony Williams"],
+            "runtime": "20 min",
+            "trailer":"https://www.youtube.com/watch?v=r6GRGEw7P9I",
+            "year": 2004
+
+        },
+
+
+        {
+            "id": 38 ,
+            "name": " Key and Peele " ,
+            "genres": ["Comedy"] ,
+            "img":"/assets/show-img/K&P.jfif",
+            "season": 5,
+            "episode":11,
+            "description":"Project sees Keegan-Michael Key and Jordan Peele in front of a live studio audience bantering about a topic weaved between filmed shorts and sketches.",
+            "cast": ["Keegan-Michael Key","Jordan Peele","Brendan Hunt"],
+            "runtime": " 30 min",
+            "trailer":"https://www.youtube.com/watch?v=EcnAb--yEcg",
+            "year": 2012
+
+        },
+
+
+        {
+            "id": 39,
+            "name": "American Horror Story" ,
+            "genres": ["Horror","Drama","Thriller","Sci-Fi"] ,
+            "img":"/assets/show-img/AHS2.jfif",
+            "season":12 ,
+            "episode":9,
+            "description":"An anthology horror drama series centering on different characters and locations, showcasing different aspects of horror. Created and produced by Ryan Murphy and Brad Falchuk.",
+            "cast": [" Evan Peters","Sarah Paulson","Lily Rabe"],
+            "runtime": " 57 min",
+            "trailer":"https://www.youtube.com/watch?v=CaVatUKWJ04",
+            "year": 2011
+
+        },
+
+
+        {
+            "id":40,
+            "name": "Shogun",
+            "genres":["Drama","Action","Adventure"],
+            "img":"/assets/show-img/shogun.jpg",
+            "season": 1,
+            "episode":10,
+            "description":"When a mysterious European ship is found marooned in a nearby Japanese fishing village, Lord Yoshii Toranaga discovers secrets that could tip the scales of power and devastate his enemies.",
+            "cast": ["Cosmo Jarvis","Anna Sawai","Tadanobu Asano"],
+            "runtime": " 57 min",
+            "trailer":"https://www.youtube.com/watch?v=yAN5uspO_hk",
+            "year": 2024
+        },
+
+
+        {
+            "id": 41 ,
+            "name": "The Game" ,
+            "genres": ["Comedy","Drama","Romance"] ,
+            "img":"/assets/show-img/GAME.jfif",
+            "season": 9,
+            "episode":22,
+            "description":"A spinoff of Girlfriends (2000) featuring a group of women who all have relationships with professional football players.",
+            "cast": ["Hosea Chanchez","Tia Mowry","Coby Bell"],
+            "runtime": "20 min",
+            "trailer":"https://www.youtube.com/watch?v=JACwNenPgfw",
+            "year": 2006
+
+        },
+
+
+        {
+            "id": 42 ,
+            "name": "The Big Bang Theory" ,
+            "genres": ["Comedy"] ,
+            "img":"/assets/show-img/Big Bang.jfif",
+            "season":12 ,
+            "episode":24,
+            "description":"Aspiring film actress Penny moves into a Pasadena apartment across the hall from brilliant, but socially awkward, physicists Sheldon Cooper and Leonard Hofstadter and shows them how little they know about life outside of the lab.",
+            "cast": ["Jim Parsons","Kaley Cuoco","Johnny Galecki"],
+            "runtime": "22 min",
+            "trailer":"https://www.youtube.com/watch?v=tRMlDM54KLQ",
+            "year": 2007
+
+        },
+
+
+        {
+            "id": 43,
+            "name": "Everybody Hates Chris" ,
+            "genres": ["Comedy"] ,
+            "img":"/assets/show-img/Chris.jfif",
+            "season":4 ,
+            "episode":22,
+            "description":"Comedy following an awkward young African-American teenager (based on a young version of comedian Chris Rock) as he attempts to survive with his family and his all-white school in 1980's Brooklyn, New York.",
+            "cast": ["Terry Crews"," Tyler James Williams","Tichina Arnold"],
+            "runtime": "19 min",
+            "trailer":"https://www.youtube.com/watch?v=-aGnHvMAfsU",
+            "year": 2005
+
+        },
+
+
+        {
+            "id": 44,
+            "name": "Loki" ,
+            "genres": [ "Action","Adventure"] ,
+            "img":"/assets/show-img/Loki.jfif",
+            "season": 2,
+            "episode": 6,
+            "description":"The mercurial villain Loki resumes his role as the God of Mischief in a new series that takes place after the events of “Avengers: Endgame",
+            "cast": ["Tom Hiddleston","Sophia Di Martino","Owen Wilson"],
+            "runtime": "49 min",
+            "trailer":"https://www.youtube.com/watch?v=dug56u8NN7g",
+            "year": 2021
+
+        },
+
+
+        {
+            "id": 45 ,
+            "name": "Mixed-ish" ,
+            "genres": ["Comedy"] ,
+            "img":"/assets/show-img/Mix.jfif",
+            "season":2 ,
+            "episode":13,
+            "featured":true,
+            "description":"Rainbow Johnson recounts her experience growing up in a mixed-race family in the '80s and the constant dilemmas she and the family members had to face over whether to assimilate or stay true to themselves. Bow's parents, Paul and Alicia, decide to move from a hippie commune to the suburbs to better provide for their family. As her parents struggle with the challenges of their new life, Bow and her siblings navigate a mainstream school in which they're perceived as neither black nor white.",
+            "cast": ["Tika Sumpter","Christina Anthony","Arica Himmel"],
+            "runtime": "22 min",
+            "trailer":"https://www.youtube.com/watch?v=YN2CZQOtBZM",
+            "year": 2019
+
+        },
+
+
+        {
+            "id": 46 ,
+            "name": "Grown-ish" ,
+            "genres": ["Comedy","Drama"] ,
+            "img":"/assets/show-img/Grown.jfif",
+            "featured":true,
+            "season": 6,
+            "episode": 18,
+            "description":"A spinoff of ABC's Black-ish, Zoey Johnson is off to college and must live outside the nest, dealing with drugs, sex, and relationships along the way.",
+            "cast": ["Trevor Jackson","Yara Shahidi","Diggy Simmons"],
+            "runtime": "22 min",
+            "trailer":"https://www.youtube.com/watch?v=OM5To8ruKTc",
+            "year": 2018
+
+        },
+
+
+        {
+            "id":47,
+            "name": "Knuckles",
+            "genres":["Adventure","Animation","Action","Fantasy","Sci-Fi"],
+            "img":"/assets/show-img/Knuckles.jpg",
+            "season": 1,
+            "episode":6,
+            "description":"Knuckles the Echidna teaches deputy Wade Whipple the techniques of the Echidna warrior.",
+            "cast": ["Idris Elba","Adam Pally","Kid Cudi"],
+            "runtime": "30 min",
+            "trailer":"https://www.youtube.com/watch?v=jxGvtg1ZVOY",
+            "year": 2021
+
+        },
+
+
+
+        {
+            "id": 48 ,
+            "name": "Power Book II: Ghost" ,
+            "genres": ["Drama"] ,
+            "img":"/assets/show-img/Ghost.jfif",
+            "season":4 ,
+            "episode":10,
+            "description":"On his own for the first time, Tariq St. Patrick Tariq navigates his new life, in which his desire to shed his father's legacy comes up against the mounting pressure to save his family; along the way, Tariq gets entangled in the affairs of the cutthroat Tejada family, adding further complications as he tries to balance his drug operations with his education, love life, family affairs, and mounting pressure; he divides his time between school and hustling to pay for his mother's defense attorney, but when he runs out of options, Tariq turns to a familiar drug game.",
+            "cast": [" Michael Rainey Jr","Mary J Blige"," Paige Hurd"],
+            "runtime": "57 min",
+            "trailer":"https://www.youtube.com/watch?v=unG-YSP1Xj8",
+            "year": 2020
+
+        },
+
+
+        {
+            "id": 49,
+            "name": "Scandal" ,
+            "genres": ["Drama","Thriller"] ,
+            "img":"/assets/show-img/Scan.jfif",
+            "season":7 ,
+            "episode":18,
+            "description":"A former White House Communications Director starts her own crisis management firm only to realize her clients are not the only ones with secrets.",
+            "cast": ["Kerry Washington"," Katie Lowes","Jeff Perry"],
+            "runtime": "43 min",
+            "trailer":"https://www.youtube.com/watch?v=5C-lK2UNNF8",
+            "year": 2012
+
+
+        },
+
+
+        {
+            "id": 50 ,
+            "name": "Matlock" ,
+            "genres": ["Drama"] ,
+            "img":"/assets/show-img/MAt.jfif",
+            "season": 1,
+            "episode":19,
+            "description":"Brilliant septuagenarian Madeline Matty Matlock, who, after achieving success in her younger years, decides to rejoin the workforce at a prestigious law firm where she uses her unassuming demeanor and wily tactics to win cases and expose corruption from within.",
+            "cast": ["Kathy Bates","Skye P. Marshall"," David Del Rio"],
+            "runtime": "44 min",
+            "trailer":"https://www.youtube.com/watch?v=eJDpIC-t33k",
+            "year": 2024
+
+        },
+
+
+        {
+            "id": 51 ,
+            "name": "Suits" ,
+            "genres": ["Drama","Comedy"] ,
+            "img":"/assets/show-img/Suits.jfif",
+            "season": 9,
+            "episode":13,
+            "description":"On the run from a drug deal gone bad, brilliant college dropout Mike Ross finds himself working with Harvey Specter, one of New York City's best lawyers.",
+            "cast": ["Gabriel Macht"," Patrick J. Adams","Meghan Markle "],
+            "runtime": "42 min",
+            "trailer":"https://www.youtube.com/watch?v=bPYnXiOVTvQ",
+            "year": 2011
+
+        },
+
+
+        {
+            "id": 52 ,
+            "name": "Hijack" ,
+            "genres": ["Drama","Thriller"] ,
+            "img":"/assets/show-img/hi.jfif",
+            "season":1 ,
+            "episode":7,
+            "description":"A plane from Dubai to London is hijacked over a 7-hour flight, while authorities on the ground scramble for answers.",
+            "cast": ["Idris Elba","Aimée Kelly","Neil Maskell"],
+            "runtime": "46 min",
+            "trailer":"https://www.youtube.com/watch?v=WxwKzsklvJo",
+            "year": 2023
+
+        },
+
+
+        {
+            "id":53 ,
+            "name": "Watchmen" ,
+            "genres": ["Drama","Mystery"] ,
+            "img":"/assets/show-img/watch.jfif",
+            "season":1 ,
+            "episode":9,
+            "description":"Watchmen takes place in Tulsa, Okla., 34 years after the original story. After a white supremacist attack on the local police department, which leaves only two surviving cops on the beat, laws are passed that allow the cops to hide their identities behind masks.",
+            "cast": ["Regina King","Jeremy Irons","Yahya Abdul-Mateen II"],
+            "runtime": "55 min",
+            "trailer":"https://www.youtube.com/watch?v=7RhBjI9dPe4",
+            "year": 2019
+
+        },
+
+
+        {
+            "id": 54 ,
+            "name": "Doom Patrol" ,
+            "genres": ["Action","Adventure","Comedy","Drama"] ,
+            "img":"/assets/show-img/DOOM.jpg",
+            "season": 4,
+            "episode":12,
+            "featured":true,
+            "description":"Doom Patrol is a team of traumatized and downtrodden superheroes, each of whom has suffered a horrible accident that gave them superhuman abilities but also left them scarred and disfigured.",
+            "cast": ["Diane Guerrero","Diane Guerrero","Matt Bomer"],
+            "runtime": "47 min",
+            "trailer":"https://www.youtube.com/watch?v=h6FLzeTHFRE",
+            "year": 2019
+
+        },
+
+
+        {
+            "id":55 ,
+            "name": "Cross" ,
+            "genres": ["Mystery","Action","Drama"] ,
+            "img":"/assets/show-img/Cross.jfif",
+            "season": 1,
+            "episode":8,
+            "description":"Alex Cross, a decorated D.C. homicide detective and forensic psychologist faces a sadistic serial killer; he and his partner, John Sampson track this killer and a threat from Cross' past appears with ill intent.",
+            "cast": ["Aldis Hodge","Isaiah Mustafa","Juanita Jennings "],
+            "runtime": "57 min",
+            "trailer":"https://www.youtube.com/watch?v=vEv9FHKOQnc",
+            "year": 2024
+
+        },
+
+
+        {
+           "id":56,
+            "name": "Game Of Thrones",
+            "genres":["Drama","Adventure","Action"],
+            "img":"/assets/show-img/Game.jpg",
+            "season":8  ,
+            "episode":9,
+            "description":"Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia.",
+            "cast": ["Emilia Clarke","Peter Dinklage","Kit Harington"],
+            "runtime": "60 min",
+            "trailer":"https://www.youtube.com/watch?v=rlR4PJn8b8I",
+            "year": 2011
+
+        },
+
+
+        {
+            "id":57,
+            "name": "The Chi" ,
+            "genres": ["Drama"] ,
+            "img":"/assets/show-img/Chi.jfif",
+            "season": 7,
+            "episode":11,
+            "description":"The Chi is a timely coming-of-age drama series centered on a group of residents who become linked by coincidence but bonded by the need for connection and redemption.",
+            "cast": [" Jacob Latimore","Michael Epps","Tiffany Boone"],
+            "runtime": "42 min",
+            "trailer":"https://www.youtube.com/watch?v=5UMhs8Eiyrc",
+            "year": 2018
+
+        },
+
+
+        {
+            "id": 58 ,
+            "name": "Gordon Ramsay's Secret Service",
+            "genres":["Drama"],
+            "img":"/assets/show-img/Gordon.jfif",
+            "season": 1 ,
+            "episode": 8,
+            "description":"With the help of a secret source on the inside, Gordon Ramsay gathers raw, unfiltered evidence and gets a 360-degree view of the major issues facing each restaurant",
+            "cast": ["Gordon Ramsay","Rock Harper","Sammi Tarantino"],
+            "runtime": "42 min",
+            "trailer":"https://www.youtube.com/watch?v=r40Wis1p8qo",
+            "year": 2025
+
+        },
+
+
+        {
+            "id": 59  ,
+            "name": "Swamp Thing",
+            "genres":["Horror"],
+            "img":"/assets/show-img/Swamp.jpg",
+            "featured":true,
+            "season": 1,
+            "episode": 10,
+            "description":"Abby Arcane returns home to Marais, Louisiana, to investigate a deadly swamp-borne virus, where she develops a bond with disgraced scientist Alec Holland. After Holland tragically dies, Abby discovers the mysteries of the swamp and that Holland may not be dead after all when a mysterious creature claims to be him.",
+            "cast": ["Crystal Reed","Andy Bean","Virginia Madsen"],
+            "runtime": "51 min",
+            "trailer":"https://www.youtube.com/watch?v=f5Vbh8m5Arc",
+            "year": 2019
+
+        },
+
+
+        {
+            "id": 60  ,
+            "name": "The Boys",
+            "genres":["Action","Comedy","Drama","Crime","Sci-Fi"],
+            "img":"/assets/show-img/Boys.jfif",
+            "season": 4,
+            "episode": 8,
+            "description":"A group of vigilantes set out to take down corrupt superheroes who abuse their superpowers.",
+            "cast": ["Karl Urban","Antony Starr","Erin Moriarty"],
+            "runtime": "60 min",
+            "trailer":"https://www.youtube.com/watch?v=EzFXDvC-EwM",
+            "year": 2019
+
+        },
+
+
+        {
+            "id": 61 ,
+            "name": "The Sopranos",
+            "genres":["Drama"],
+            "img":"/assets/show-img/Sopranos.jfif",
+            "season":6 ,
+            "episode":21,
+            "description":"Tony Soprano juggles the problems of his fractious family with those of a Family of a different sort - the mob. He sees a therapist to deal with his professional and personal problems, which bring on panic attacks. He deals with personal and professional power struggles, affairs, violence, the threat of exposure and betrayal, and a whole bunch of people being whacked.",
+            "cast": ["James Gandolfini"," Edie Falco","Lorraine Bracco"],
+            "runtime": "60 min",
+            "trailer":"https://www.youtube.com/watch?v=faRl5Bea-Go",
+            "year": 1999
+
+        },
+
+
+        {
+            "id": 62 ,
+            "name": "Modern Family",
+            "genres":["Comedy","Drama"],
+            "img":"/assets/show-img/Mod.jfif",
+            "season": 11 ,
+            "episode":16,
+            "description":"Three different, but related, families face trials and tribulations in their own uniquely comedic ways.",
+            "cast": ["Ty Burrell","Julie Bowen","Sofía Vergara"],
+            "runtime": "22 min",
+            "trailer":"https://www.youtube.com/watch?v=X0lRjbrH-L8",
+            "year": 2009
+
+        },
+
+
+        {
+            "id": 63 ,
+            "name": "Fallout",
+            "genres":["Action","Adventure", "Drama"],
+            "img":"/assets/show-img/Fallout.jfif",
+            "season":1 ,
+            "episode":8,
+            "description":"In a future, post-apocalyptic Los Angeles brought about by nuclear decimation, citizens must live in underground bunkers to protect themselves from radiation, mutants and bandits.",
+            "cast": [" Ella Purnell","Aaron Moten"," Walton Goggins "],
+            "runtime": "49 min",
+            "trailer":"https://www.youtube.com/watch?v=7h8zJHywjAw",
+            "year": 2024
+
+        },
+
+
+        {
+            "id": 64 ,
+            "name": "2 Broke Girls",
+            "genres":["Comedy"],
+            "img":"/assets/show-img/2Girls.jfif",
+            "season": 6,
+            "episode":22,
+            "description":"Two young women waitressing at a greasy spoon diner strike up an unlikely friendship in the hopes of launching a successful business - if only they can raise the cash.",
+            "cast": ["Kat Dennings","Beth Behrs","Garrett Morris"],
+            "runtime": "22 min",
+            "trailer":"https://www.youtube.com/watch?v=KXSfWSX7ZUE",
+            "year": 2011
+
+        },
+
+
+        {
+            "id": 65 ,
+            "name": "Real Husbands of Hollywood",
+            "genres":["Comedy"],
+            "img":"/assets/show-img/Hollywood.jfif",
+            "season": 5,
+            "episode":10,
+            "description":"Kevin Hart and other celebrities play comic fictionalized versions of themselves in this parody of similarly-named reality shows. Episodes often feature Kevin Hart's attempts to gain celebrity, and his jealousy of his friends.",
+            "cast": ["Kevin Hart","Nick Cannon","Jackie Long"],
+            "runtime": "22 min",
+            "trailer":"https://www.youtube.com/watch?v=iuU2ZeqDeSw",
+            "year": 2013
+
+        },
+
+
+        {
+            "id": 66 ,
+            "name": "How to Get Away with Murder",
+            "genres":["Mystery","Thriller"],
+            "img":"/assets/show-img/Murder.jpg",
+            "season":6 ,
+            "episode":15,
+            "description":"A group of ambitious law students and their brilliant criminal defense professor become involved in a twisted murder plot that promises to change the course of their lives.",
+            "cast": ["Viola Davis","Alfred Enoch","Aja Naomi King"],
+            "runtime": "22 min",
+            "trailer":"https://www.youtube.com/watch?v=rMB_Gw5-T-I",
+            "year": 2014
+
+        },
+
+
+        {
+            "id": 67  ,
+            "name": "The Player",
+            "genres":["Action","Drama"],
+            "img":"/assets/show-img/Player.jfif",
+            "season": 1,
+            "episode":9,
+            "description":"A former intelligence and FBI officer, who now works as a security expert in Las Vegas, is recruited by mysterious pit boss Mr. Johnson to, based on his tips, try to prevent crimes, while the rich place bets on his chances of success.",
+            "cast": ["Philip Winchester ","Wesley Snipes ","Charity Wakefield"],
+            "runtime": "42 min",
+            "trailer":"https://www.youtube.com/watch?v=8E7k8-upbbs",
+            "year": 2015
+
+        },
+
+
+        {
+            "id": 68,
+            "name": "Agents of S.H.I.E.L.D.",
+            "genres":["Action","Adventure","Sci-Fi","Thriller"],
+            "img":"/assets/show-img/AOS.jfif",
+            "season": 7,
+            "episode":13,
+            "description":"The worldwide law-enforcement organization known as S.H.I.E.L.D. (Strategic Homeland Intervention Enforcement and Logistics Division) employs an elite team of agents who investigate strange occurrences around the globe and beyond.",
+            "cast": ["Clark Gregg","Ming-Na Wen","Brett Dalton"],
+            "runtime": "43 min",
+            "trailer":"https://www.youtube.com/watch?v=fiv6trv39tQ",
+            "year": 2013
+
+        },
+
+
+        {
+            "id": 69 ,
+            "name": "Pretty Little Liars",
+            "genres":["Drama","Mystery","Romance","Thriller"],
+            "img":"/assets/show-img/PLL.jfif",
+            "season":7 ,
+            "episode":20,
+            "description":"Four friends band together against an anonymous foe who threatens to reveal their darkest secrets, while also investigating the disappearance of their best friend.",
+            "cast": ["Troian Bellisario","Ashley Benson","Lucy Hale"],
+            "runtime": "60 min",
+            "trailer":"https://www.youtube.com/watch?v=e3Nz_1hQgUE",
+            "year": 2010
+
+        },
+
+
+        {
+            "id": 70 ,
+            "name": "Archer",
+            "genres":["Animation","Action","Comedy"],
+            "img":"/assets/show-img/Archer.jfif",
+            "season":14 ,
+            "episode":9,
+            "description":"Covert black ops and espionage take a back seat to zany personalities and relationships between secret agents and drones.",
+            "cast": [" Amber Nash"," Chris Parnell.","H. Jon Benjamin"],
+            "runtime": "60 min",
+            "trailer":"https://www.youtube.com/watch?v=I3ueuk2NUFk",
+            "year": 2009
+
+        },
+
+
+        {
+            "id":71  ,
+            "name": "NCIS",
+            "genres":["Action","Drama","Mystery"],
+            "img":"/assets/show-img/NCSI.jfif",
+            "season": 22,
+            "episode":20,
+            "description":"Follows the Major Case Response Team (MCRT) from the Naval Criminal Investigative Service (NCIS), as they get to the bottom of criminal cases connected to Navy and Marine Corps personnel.",
+            "cast": ["Sean Murray","Mark Harmon","Pauley Perrette"],
+            "runtime": "60 min",
+            "trailer":"https://www.youtube.com/watch?v=0lGwMgYA5uc",
+            "year": 2003
+
+        },
+
+
+        {
+            "id": 72 ,
+            "name": "Once Upon a Time",
+            "genres":["Adventure","Fantasy","Romance"],
+            "img":"/assets/show-img/OUAT.jfif",
+            "season": 7,
+            "episode":22,
+            "description":"A young woman with a troubled past is drawn to a small town in Maine where fairy tales are to be believed.",
+            "cast": ["Ginnifer Goodwin","Jennifer Morrison","Jared Gilmore"],
+            "runtime": "43 min",
+            "trailer":"https://www.youtube.com/watch?v=rCMW_BAVIgI",
+            "year": 2011
+
+        },
+
+
+        {
+            "id": 73  ,
+            "name": "Elementary",
+            "genres":["Crime","Mystery","Drama"],
+            "img":"/assets/show-img/ElE.jfif",
+            "season":7 ,
+            "episode":13,
+            "description":"A crime-solving duo that cracks the NYPD's most impossible cases. Following his fall from grace in London, eccentric Sherlock escapes to New York where his father forces him to live with his worst nightmare--a sober companion, Dr. Watson.",
+            "cast": ["Jonny Lee Miller"," Lucy Liu","Jon Michael Hill"],
+            "runtime": "42 min",
+            "trailer":"https://www.youtube.com/watch?v=AoqTgGV952s",
+            "year": 2012
+
+        },
+
+
+        {
+            "id": 74 ,
+            "name": "Watson",
+            "genres":["Drama","Mystery"],
+            "img":"/assets/show-img/Watson.jfif",
+            "season": 1,
+            "episode":13,
+            "description":"A year after the death of his friend and partner Sherlock Holmes, Dr. John Watson resumes his medical career at a clinic dedicated to the treatment of rare diseases. However, he soon finds that his old life is not done with him yet.",
+            "cast": ["Morris Chestnut","Inga Schlingmann"," Eve Harlow"],
+            "runtime": "43 min",
+            "trailer":"https://www.youtube.com/watch?v=OvpOhV-0itM",
+            "year": 2024
+
+        },
+
+
+        {
+            "id": 75 ,
+            "name": "Ted",
+            "genres":["Comedy"],
+            "img":"/assets/show-img/Ted.jfif",
+            "featured":true,
+            "season": 1,
+            "episode": 6,
+            "description":"It's 1993, and Ted the bear's moment of fame has passed. He's living back home with his best friend, John Bennett, and his family. While Ted may be a lousy influence on John, he's a loyal pal who will go out on a limb for friendship.",
+            "cast": ["Seth MacFarlane","Max Burkholder","Alanna Ubach"],
+            "runtime": " 43 min",
+            "trailer":"https://www.youtube.com/watch?v=Ny38m68hI-8",
+            "year": 2024
+
+        },
+
+
+        {
+            "id": 76 ,
+            "name": "Mr. & Mrs. Smith",
+            "genres":["Action","Crime","Comedy"],
+            "img":"/assets/show-img/Smith.jfif",
+            "featured":true,
+            "season": 1,
+            "episode": 5,
+            "description":"John and Jane Smith become secret agents for a mysterious organisation. Their work puts both their skills as spies and their relationship to the test. The two have to deal with a world full of dangers.",
+            "cast": ["Maya Erksine ","Donald Glover","Parker Posey"],
+            "runtime": "22 min",
+            "trailer":"https://www.youtube.com/watch?v=AsaMWxppznk",
+            "year": 2024
+
+        },
+
+
+        {
+            "id": 77 ,
+            "name": "House of the Dragon",
+            "genres":["Fantasy","Action","Adventure","Drama", "Romance"],
+            "img":"/assets/show-img/Dragon.jfif",
+            "season":2 ,
+            "episode":8,
+            "description":"An internal succession war within House Targaryen at the height of its power, 172 years before the birth of Daenerys Targaryen.",
+            "cast": ["Matt Smith","Olivia Cooke","Steve Toussaint"],
+            "runtime": " 55 min",
+            "trailer":"https://www.youtube.com/watch?v=YN2H_sKcmGw",
+            "year": 2022
+
+        },
+
+
+        {
+            "id": 78 ,
+            "name": "Only Murders in the Building",
+            "genres":["Comedy","Mystery","Crime","Drama"],
+            "img":"/assets/show-img/OMB.jfif",
+            "season": 4,
+            "episode":10,
+            "description":"Three strangers - who live in the same New York City apartment building and share an obsession with true crime - suddenly find themselves embroiled in a murder.",
+            "cast": ["Steve Martin","Selena Gomez","Martin Short"],
+            "runtime": "30 min",
+            "trailer":"https://www.youtube.com/watch?v=xUy1FxTBUno",
+            "year": 2021
+
+        },
+
+
+        {
+            "id":79  ,
+            "name": "Doctor Who",
+            "genres":["Adventure","Drama"],
+            "img":"/assets/show-img/DocWho.jfif",
+            "season": 2,
+            "episode": 8,
+            "description":"The Time Lord known as the Doctor travels through space and time with his companions, having incredible adventures and facing dangerous enemies.",
+            "cast": ["Ncuti Gatwa","Millie Gibson","Varada Sethu"],
+            "runtime": "43 min",
+            "trailer":"https://www.youtube.com/watch?v=MPxtqx55PA0",
+            "year": 2023
+
+        },
+
+
+        {
+            "id": 80 ,
+            "name": "Love & Death",
+            "genres":["Crime","Drama","Mystery"],
+            "img":"/assets/show-img/L&D.jfif",
+            "season": 1,
+            "episode":7,
+            "description":"Candy is a quiet housewife who, overnight, decides to have an affair with her neighbour. But the relationship soon spirals out of control when her lover's wife is found dead and all suspicion falls on her.",
+            "cast": ["Elizabeth Olsen","Jesse Plemons","Janelle James"],
+            "runtime": "53 min",
+            "trailer":"https://www.youtube.com/watch?v=FlbNJJwc4jA",
+            "year": 2023
+
+        },
+
+
+        {
+            "id": 81 ,
+            "name": "Nikita",
+            "genres":["Action","Mystery","Crime","Drama"],
+            "img":"/assets/show-img/Niki.jfif",
+            "season": 4,
+            "episode": 6,
+            "description":"Betrayed by the secret government agency that made her an assassin, the charming and deadly Nikita makes it her mission to undermine the organization.",
+            "cast": ["Maggie Q","Shane West","Lyndsy Fonseca"],
+            "runtime": "42 min",
+            "trailer":"https://www.youtube.com/watch?v=ySr1u6jguHQ",
+            "year": 2010
+
+        },
+
+
+        {
+            "id": 82 ,
+            "name": "True Blood",
+            "genres":["Mystery","Drama","Fantasy","Romance"],
+            "img":"/assets/show-img/TrueBlood.jfif",
+            "season":7,
+            "episode":10,
+            "description":"Telepathic waitress Sookie Stackhouse encounters a strange new supernatural world when she meets the mysterious Bill Compton, a southern Louisiana gentleman and vampire.",
+            "cast": [" Anna Paquin ","Stephen Moyer","Sam Trammell"],
+            "runtime": "52 min",
+            "trailer":"https://www.youtube.com/watch?v=CnjN5xKvIIc",
+            "year": 2008
+
+        },
+
+
+        {
+            "id": 83 ,
+            "name": "Brickleberry",
+            "genres":["Animation","Comedy"],
+            "img":"/assets/show-img/Berry.jfif",
+            "season": 3 ,
+            "episode": 13,
+            "description":"A group of never-do-well forest rangers are facing the shutdown of their National Park when a new ranger arrives to help transform them and save the park.",
+            "cast": ["Daniel Tosh","Roger Black","Jerry Minor"],
+            "runtime": "22 min",
+            "trailer":"https://www.youtube.com/watch?v=5RPOQyavuyU",
+            "year": 2012
+
+        },
+
+
+        {
+            "id": 84 ,
+            "name": "Mad",
+            "genres":["Animation","Comedy"],
+            "img":"/assets/show-img/Mad.jfif",
+            "season": 4 ,
+            "episode": 25,
+            "description":"A sketch comedy series, based on the long-running MAD Magazine, that spoofs TV shows, movies, music videos and other pop-culture staples. Celebrity guests stop by from time to time to help the cast members poke fun. Many episodes also feature performances by popular musical acts.",
+            "cast": ["Kevin Shinick","Rachel Ramras","Hugh Davidson"],
+            "runtime": "22 min",
+            "trailer":"https://www.youtube.com/watch?v=Ll-96HdYIHE",
+            "year": 2010
+
+        }
+    ]
+}

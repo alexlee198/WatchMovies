@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Movies } from '../movie-data/movies';
+import { Movie } from '../movie-data/movies';
 import { Observable } from 'rxjs';
 
 @Injectable({
@@ -8,12 +8,15 @@ import { Observable } from 'rxjs';
 })
 export class WatchMoviesService {
 
-  url = "http://localhost:3000/movies"
+  private url = 'src/assets/movies.json';
+ 
 
   constructor(private http: HttpClient) { }
 
-  getMovies():Observable<Array<Movies>>{
-    return this.http.get<Array<Movies>>(this.url)
+  getMovies():Observable<Array<Movie>>{
+    return this.http.get<Array<Movie>>(this.url)
   }
 
 }
+
+export { Movie };

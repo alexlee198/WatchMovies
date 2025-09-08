@@ -1,0 +1,30 @@
+<div class="genre-contain">
+    <div class="title-box">
+        <h1 class="genre-title">{{ genre }} Movies</h1>
+    </div>
+    <div class="movie-flex" *ngIf="allMedia.length; else noResults" >
+        <div class="movie-card" *ngFor="let item of allMedia" >
+            
+            <a [routerLink]="[item.type === 'movie' ? '/movies' : '/shows', item.id]">
+
+                <div class="img-wrapper">
+                     <div class="play-btn"> 
+                        <a class="play-icon"><i class="fa-regular fa-circle-play"></i></a>  
+                     </div>
+                    <img [src]="item.img" alt="{{ item.name }}" />
+                    <div *ngIf="item.type === 'show' && item.episode"  class="episode-badge">
+                        <span class="ep-label">EP</span>
+                        <span class="ep-number">{{ item.episode }}</span>
+                    </div>
+                    <div class="title-overlay">
+                            {{ item.name || 'Untitled' }} 
+                        <span *ngIf="item.type === 'show' && item.episode "> - Season {{ item.season }}</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+<ng-template #noResults>
+    <p>No Movies found in this genre</p>
+</ng-template>

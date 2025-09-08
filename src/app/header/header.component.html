@@ -1,12 +1,60 @@
-<div class="navbar">
-  <div class="nav-list">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" data-bs-theme="dark">
+  <div class="container-fluid">
+    <div class="logo">
+      <a><img src="assets/Images/movielogo.jpg"/></a>
+    </div>
+    <a class="navbar-brand" href="#">Watch Movies</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link " routerLink="/">Home</a>
+        </li>
+       
+        <li class="nav-item dropdown">
+          <a class="nav-link "  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Gerne
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" [routerLink]="['/genre', 'Action']">Action</a></li>
+            <li><a class="dropdown-item" [routerLink]="['/genre', 'Adventure']">Adventure</a></li>
+            <li><a class="dropdown-item" [routerLink]="['/genre', 'Animation']">Animation</a></li>
+            <li><a class="dropdown-item" [routerLink]="['/genre', 'Comedy']">Comedy</a></li>
+            <li><a class="dropdown-item" [routerLink]="['/genre', 'Crime']">Crime</a></li>
+            <li><a class="dropdown-item" [routerLink]="['/genre', 'Drama']">Drama</a></li>
+            <li><a class="dropdown-item" [routerLink]="['/genre', 'Fantasy']">Fantasy</a></li>
+            <li><a class="dropdown-item" [routerLink]="['/genre', 'Horror']">Horror</a></li>
+            <li><a class="dropdown-item" [routerLink]="['/genre', 'Mystery']">Mystery</a></li>
+            <li><a class="dropdown-item" [routerLink]="['/genre', 'Romance']">Romance</a></li>
+            <li><a class="dropdown-item" [routerLink]="['/genre', 'Thriller']">Thriller</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/movie">Movies</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/shows">TV Shows</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" [(ngModel)]="movieSearch" name="movieSearch" aria-label="Search">
+        <button class="btn btn-outline-warning" type="submit" (click)="searchMovies()">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<!-- <div class="navbar">
     <div class="logo">
       <a><img src="assets/Images/movielogo.jpg"/></a>
       <p class="movie-title">Watch Movies</p>
     </div>
+    <div class="nav-list">
     <ul>
-      <li><a routerLink="/">Home</a></li>
-      <li>
+      <li class="space"><a routerLink="/">Home</a></li>
+      <li class="space">
         <a routerLink="/">Gerne</a>
         <div class="dropdown">
           <li><a href="#">Action</a></li>
@@ -15,12 +63,30 @@
           <li><a href="#">Horror</a></li>
         </div>
       </li>
+      <li class="space"><a routerLink="/movie">Movies</a></li>
+      <li class="space"><a routerLink="/shows">TV Shows</a></li>
+
+    </ul>
+  </div>
+
+      <input type="text" [(ngModel)]="movieSearch" placeholder="Search Movies">
+    <button class="btn" (click)="searchMovies()">Search</button> -->
+
+    
+    
+
+
+<!-- <nav>
+  <h2 style="color:white">Watch Movies</h2>
+    <ul>
+      <li><a routerLink="/">Home</a></li>
+      <li><a routerLink="/">Gerne</a></li>
       <li><a routerLink="/movie">Movies</a></li>
       <li><a routerLink="/shows">TV Shows</a></li>
     </ul>
+
     <div class="search-container">
       <input type="text" [(ngModel)]="movieSearch" placeholder="Search Movies">
     <button class="btn" (click)="searchMovies()">Search</button>
     </div>
-  </div>
-</div>
+</nav> -->

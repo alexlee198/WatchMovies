@@ -1,6 +1,11 @@
-export type Movies = {
+export type Movie = {
    id: number | string;
-   name: string;
-   catagory: string;
    img: string;
+   name: string;
+   genres: string[];
+   cast: string[];
+   description: string;
+   runtime:string;
+   year: number;
+   trailer?: string;
 }

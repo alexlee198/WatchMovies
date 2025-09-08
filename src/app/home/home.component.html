@@ -1,0 +1,83 @@
+<div class="container">
+
+  <div class="carousel">
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+      <img src="/assets/Long-img/Death On The Nile.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img  src="/assets/Long-img/Quiet Place.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/assets/Long-img/Kung FU.jpeg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/assets/Long-img/D&W.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+
+
+<div class="section-title">
+  <p class="feat">Featured Movies</p>
+</div>
+
+
+<div class="movie-container">
+  
+  <div class="excard" *ngFor="let movie of movies" [routerLink]="['/movies', movie.id]" >
+   
+      <div class="img-box">
+         <div class="play-btn"> 
+          <a class="play-icon"><i class="fa-regular fa-circle-play"></i></a>  
+        </div>
+        <img class="mov-img" src= "{{movie.img}}" alt="">
+          <div class="title-overlay">
+              {{ movie.name }}
+          </div>
+      </div>
+  </div>
+</div>
+
+
+
+  <div class="section-title">
+    <p class="feat">Featured Shows</p>
+  </div>
+
+<div class="shows-container">
+  <div class="excard" *ngFor="let show of shows" [routerLink]="['/shows', show.id]" >
+    <div  class="img-box">
+       <div class="play-btn"> 
+          <a class="play-icon"><i class="fa-regular fa-circle-play"></i></a>  
+        </div>
+      <img class="mov-img"  src="{{show.img}}" >
+          <div class="episode-badge">
+                <span class="ep-label">EPS</span>
+            <span class="ep-number">{{ show.episode }}</span>
+          </div>
+          <div class="title-overlay">
+              {{ show.name }} - Season {{ show.season }}
+        </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+
+
+
+

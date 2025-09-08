@@ -1,13 +1,26 @@
-<h1>Tv Shows Page</h1>
 <div class="container">
-  <div *ngFor="let show of shows">
-    <div class="class-box">
+ <div class="title-box">
+    <h1 class="title">TV Shows</h1>
+  </div>
+
+  <div class="show-container">
+  <div class="show-card"  *ngFor="let show of shows">
+    <div class="img-box">
       <div class="play-btn">
-        <a href="" class="play-icon"
-          ><i class="fa-regular fa-circle-play"></i
-        ></a>
-      </div>
-      <img src="{{ show.img }}" />
+        <a [routerLink] ="['/shows',show.id]" class="play-icon"
+          ><i class="fa-regular fa-circle-play"></i>
+        </a>
+        </div>
+        <img src="{{ show.img }}" />
+          <div class="episode-badge">
+            <span class="ep-label">EPS</span>
+            <span class="ep-number">{{ show.episode }}</span>
+          </div>
+
+         <div class="title-overlay">
+              {{ show.name }} - Season {{ show.season }}
+          </div>
+     </div>
     </div>
   </div>
 </div>

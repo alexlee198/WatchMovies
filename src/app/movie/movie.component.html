@@ -1,17 +1,31 @@
-<h1>MoviesPage</h1>
-
-<div class="search-container">
-    <input type="text" [(ngModel)]="movieSearch" placeholder="Search Movies">
-  <button class="btn" (click)="searchMovies()">Search</button>
+<div class="container">
+  <div class="title-box">
+    <h1 class="title">Movies</h1>
   </div>
-
-    <div class="container">
-        <div *ngFor="let movie of movies" >  
-        <div class="img-box">
-            <div class="play-btn">
-               <a href="" class="play-icon"><i class="fa-regular fa-circle-play"></i></a> 
-            </div>
-            <img src="{{movie.img}}">
+<div class="movie-container">
+  <div class="movie-card" *ngFor=" let movie of paginatedMovies" >  
+    <div class="img-box">
+      <div class="play-btn"> 
+          <a [routerLink]="['/movies', movie.id]" class="play-icon"><i class="fa-regular fa-circle-play"></i></a>  
         </div>
-    </div> 
+          <img src="{{movie.img}}">
+          <div class="title-overlay">
+              {{ movie.name }}
+          </div>
+        </div>
+      </div>
 
+    </div>
+    <div class="pagination-controls" *ngIf="totalPages > 1">
+          <button (click)="currentPage = currentPage - 1" [disabled]="currentPage === 1">Prev</button>
+
+            <button 
+          *ngFor="let page of [].constructor(totalPages); let i = index"
+              (click)="currentPage = i + 1"
+            [class.active]="currentPage === (i + 1)">
+            {{ i + 1 }}
+         </button>
+
+          <button (click)="currentPage = currentPage + 1" [disabled]="currentPage === totalPages">Next</button>
+      </div>
+</div>

@@ -17,3 +17,5 @@ export class WatchShowsService {
   }
 
 }
+
+export { Shows };
